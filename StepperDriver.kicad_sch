@@ -4181,7 +4181,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 189.23 83.82 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4232,6 +4232,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c09d78ae-b6a4-4bde-b6b2-4f3ed5b9f9f8")
 		)
@@ -4248,7 +4257,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 189.23 81.28 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4291,6 +4300,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -4692,7 +4710,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 189.23 76.2 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4735,6 +4753,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 189.23 76.2 0)
 			(effects
 				(font
@@ -5028,7 +5055,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 189.23 73.66 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5071,6 +5098,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 189.23 73.66 0)
 			(effects
 				(font
