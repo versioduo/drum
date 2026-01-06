@@ -1705,7 +1705,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1747,15 +1747,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -1854,7 +1845,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 91.44 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1896,15 +1887,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 175.26 91.44 0)
 			(effects
 				(font

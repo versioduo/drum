@@ -1307,6 +1307,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PoE Passive +24V\nIEEE 802.3af Mode B"
+		(exclude_from_sim no)
+		(at 169.164 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44782055-1191-40cb-91d7-ca574461398d")
+	)
+	(text "RS-422 3MHz"
+		(exclude_from_sim no)
+		(at 176.022 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f228db0-28ae-4a87-8fd2-2cb746b3a9a2")
+	)
 	(junction
 		(at 143.51 118.11)
 		(diameter 0)
@@ -1919,7 +1940,7 @@
 		(at 154.94 128.27 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1960,15 +1981,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 154.94 128.27 0)
 			(effects
 				(font
