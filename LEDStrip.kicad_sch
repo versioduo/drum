@@ -358,7 +358,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -383,7 +383,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -474,7 +474,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -483,7 +483,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -509,8 +509,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -746,7 +746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -838,15 +838,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1125b076-f917-4cff-838b-2bcd491fe3b0")
 		)
@@ -903,7 +894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -995,15 +986,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "60870d63-0990-471e-a982-b2592f93784f")
 		)
@@ -1060,7 +1042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -1126,7 +1108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.7 115.57 0)
 			(effects
 				(font
@@ -1218,15 +1200,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 175.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ef77745e-18d1-45b1-8b94-61ade2d6138c")
 		)
@@ -1293,15 +1266,6 @@
 		)
 		(property "Mouser" "595-SN74AHC1G125DBVR"
 			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -417,6 +417,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -557,7 +567,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-CC603KRX7R9BB105"
+			(property "Mouser" "810-CGA3E3X7R1H105K0"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -567,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CC0603KRX7R9BB105"
+			(property "Product" "CGA3E3X7R1H105K080AB"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -577,8 +587,18 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "TDK"
 				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
 				(show_name)
 				(effects
 					(font
@@ -737,7 +757,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Rating" "50V"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -917,7 +937,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "25V"
+			(property "Rating" "25V"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -1383,7 +1403,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1408,7 +1428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -1499,7 +1519,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1508,7 +1528,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1534,8 +1554,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1887,15 +1907,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 148.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 148.59 146.05 0)
 			(effects
@@ -2019,15 +2030,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 109.22 113.03 0)
 			(effects
@@ -2039,6 +2041,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,15 +2144,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 195.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CGA6P3X7R1E226M250AE"
 			(at 195.58 115.57 0)
 			(effects
@@ -2153,15 +2155,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 195.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,15 +2232,6 @@
 		)
 		(property "Mouser" "71-RCS060340K2FKEA"
 			(at 172.72 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -2408,7 +2392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -2473,7 +2457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 195.58 95.25 0)
 			(effects
 				(font
@@ -2539,7 +2523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 97.79 100.33 0)
 			(effects
 				(font
@@ -2605,7 +2589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 172.72 105.41 0)
 			(effects
 				(font
@@ -2671,7 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -2746,7 +2730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R9BB105"
+		(property "Mouser" "810-CGA3E3X7R1H105K0"
 			(at 128.27 125.222 0)
 			(effects
 				(font
@@ -2755,16 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product" "CC0603KRX7R9BB105"
+		(property "Product" "CGA3E3X7R1H105K080AB"
 			(at 128.27 125.73 0)
 			(effects
 				(font
@@ -2773,8 +2748,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 128.27 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,15 +2853,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CGA6P3X7R1E226M250AE"
 			(at 185.42 115.57 0)
 			(effects
@@ -2889,15 +2864,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 185.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 128.27 110.49 0)
 			(effects
 				(font
@@ -3041,15 +3007,6 @@
 		)
 		(property "Mouser" "71-CRCW060310K0FKEAC"
 			(at 172.72 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -3237,15 +3194,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CNA6P1X7R1H106K250AE"
 			(at 97.79 115.57 0)
 			(effects
@@ -3257,15 +3205,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 97.79 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

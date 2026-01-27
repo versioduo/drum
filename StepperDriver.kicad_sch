@@ -386,6 +386,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -876,7 +886,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Rating" "50V"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -2566,7 +2576,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2587,8 +2597,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 4.064 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2613,7 +2623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" ""
 				(at 0 -14.732 0)
 				(effects
 					(font
@@ -2631,7 +2641,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2669,7 +2679,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2713,7 +2723,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2738,7 +2748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" ""
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -2838,7 +2848,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2863,7 +2873,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -2954,7 +2964,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2963,7 +2973,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2989,8 +2999,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3056,7 +3066,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 -13.97 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3065,7 +3075,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 4.572 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3091,7 +3101,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 -17.272 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3110,7 +3120,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -3131,7 +3141,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -3795,15 +3805,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 158.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CNA6P1X7R1H106K250AE"
 			(at 158.75 67.31 0)
 			(effects
@@ -3815,15 +3816,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 158.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 158.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,15 +3901,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CC0603KRX5R6BB475"
 			(at 110.49 99.06 0)
 			(effects
@@ -3952,7 +3935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 139.7 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3970,7 +3953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 135.89 88.8999 90)
 			(effects
 				(font
@@ -3997,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 139.7 88.9 0)
 			(effects
 				(font
@@ -4074,15 +4057,6 @@
 		)
 		(property "Mouser" "603-CC603KPX7R9BB223"
 			(at 175.26 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,15 +4169,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CNA6P1X7R1H106K250AE"
 			(at 170.18 67.31 0)
 			(effects
@@ -4215,15 +4180,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 191.77 129.54 0)
 			(effects
 				(font
@@ -4395,15 +4351,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 157.48 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2ef36004-8139-4bb7-b871-7701222fa4ac")
 		)
@@ -4487,15 +4434,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 124.46 64.77 0)
 			(effects
@@ -4507,6 +4445,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 124.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 175.26 139.7 0)
 			(effects
 				(font
@@ -4641,7 +4588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 165.1 156.21 0)
 			(effects
 				(font
@@ -4709,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 191.77 127 0)
 			(effects
 				(font
@@ -4784,15 +4731,6 @@
 		)
 		(property "Mouser" "667-ERJ-6DSFR11V"
 			(at 204.216 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 189.23 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 124.46 52.07 0)
 			(effects
 				(font
@@ -4970,15 +4908,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 139.7 101.6 0)
 			(effects
@@ -4990,6 +4919,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +4995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 170.18 52.07 0)
 			(effects
 				(font
@@ -5125,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -5192,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 139.7 81.28 0)
 			(effects
 				(font
@@ -5258,7 +5196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 124.46 46.99 0)
 			(effects
 				(font
@@ -5280,7 +5218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 139.7 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5298,7 +5236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 135.89 91.4399 90)
 			(effects
 				(font
@@ -5325,7 +5263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -5392,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -5469,15 +5407,6 @@
 		)
 		(property "Mouser" "667-EEE-FKV101XAL"
 			(at 134.62 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,15 +5512,6 @@
 		)
 		(property "Mouser" "667-EEE-FKV101XAL"
 			(at 147.32 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 147.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,15 +5633,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c09d78ae-b6a4-4bde-b6b2-4f3ed5b9f9f8")
 		)
@@ -5806,15 +5717,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ef1428c7-083e-4042-8ac7-d3eb7e2c2bec")
 		)
@@ -5874,7 +5776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.7 106.68 0)
 			(effects
 				(font
@@ -5941,7 +5843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 110.49 83.82 0)
 			(effects
 				(font
@@ -6017,15 +5919,6 @@
 		)
 		(property "Mouser" "71-RCS06032R20JNEA"
 			(at 132.334 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 116.84 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,15 +6043,6 @@
 		)
 		(property "LCSC" "C915795"
 			(at 157.48 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,15 +6242,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36227c16-a55a-40d4-b4e8-8640ec791e1c")
 		)
@@ -6440,15 +6315,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 189.23 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "ERJ-6DSFR11V"
 			(at 207.01 129.54 0)
 			(effects
@@ -6492,7 +6358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 170.18 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6510,7 +6376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -6536,7 +6402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -6613,15 +6479,6 @@
 		)
 		(property "Mouser" "603-CC0603JR6BB474"
 			(at 123.19 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -6802,15 +6659,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4c40834a-676b-4781-b8da-9fa14af669e3")
 		)
@@ -6868,7 +6716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 165.1 161.29 0)
 			(effects
 				(font
