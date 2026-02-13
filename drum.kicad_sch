@@ -211,17 +211,16 @@
 				)
 			)
 			(property "Value" "V2-logo"
-				(at -4.572 -5.588 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -8.128 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -239,15 +238,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4617,7 +4607,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_3mm"
+			(property "Value" "3mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4644,16 +4634,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4851,7 +4832,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Order_Number"
+		(symbol "V2_Production:Revision"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -4863,7 +4844,7 @@
 					)
 				)
 			)
-			(property "Value" "Order_Number"
+			(property "Value" ""
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -4872,7 +4853,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Production:Order_Number"
+			(property "Footprint" "V2_Production:Revision"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4899,26 +4880,26 @@
 					(hide yes)
 				)
 			)
-			(symbol "Order_Number_0_0"
-				(text "ORDER-NUMBER"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Order_Number_0_1"
+			(symbol "Revision_0_1"
 				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Revision_1_1"
+				(text "Revision"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -10123,7 +10104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
+		(property "Value" "3mm"
 			(at 160.02 191.7699 90)
 			(effects
 				(font
@@ -10151,15 +10132,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 157.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 190.5 0)
 			(effects
 				(font
@@ -12145,7 +12117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Order_Number")
+		(lib_id "V2_Production:Revision")
 		(at 248.92 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12161,7 +12133,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" ""
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -12170,7 +12142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
+		(property "Footprint" "V2_Production:Revision"
 			(at 248.92 185.42 0)
 			(effects
 				(font
@@ -12225,7 +12197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
+		(property "Value" "3mm"
 			(at 160.02 185.4199 90)
 			(effects
 				(font
@@ -12253,15 +12225,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 157.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 184.15 0)
 			(effects
 				(font
@@ -13787,7 +13750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
+		(property "Value" "3mm"
 			(at 160.02 179.0699 90)
 			(effects
 				(font
@@ -13815,15 +13778,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -14855,7 +14809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
+		(property "Value" "3mm"
 			(at 160.02 172.7199 90)
 			(effects
 				(font
@@ -14883,15 +14837,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 157.48 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 171.45 0)
 			(effects
 				(font
@@ -15190,15 +15135,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 212.09 167.64 0)
 			(effects
 				(font
