@@ -6606,7 +6606,7 @@
 		(uuid "e02dde72-5a7d-485f-b047-4dd3bcd6ccdf")
 	)
 	(junction
-		(at 167.64 43.18)
+		(at 166.37 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3fee780-1c8f-4104-8983-ed794e134d87")
@@ -7063,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 167.64 43.18)
+			(xy 163.83 43.18) (xy 166.37 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7573,7 +7573,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 171.45 43.18)
+			(xy 166.37 43.18) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8948,7 +8948,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 167.64 50.8 0)
+		(at 166.37 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8956,7 +8956,7 @@
 		(dnp no)
 		(uuid "09b12e1c-4dcf-4374-904e-884e738b1c35")
 		(property "Reference" "#PWR0112"
-			(at 167.64 57.15 0)
+			(at 166.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +8965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.66 56.23 0)
+			(at 164.39 56.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +8975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 50.8 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 50.8 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +8993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 50.8 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,15 +9308,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 240.03 170.18 0)
 			(effects
 				(font
@@ -9739,7 +9730,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:SMBJ33CA")
-		(at 167.64 46.99 90)
+		(at 166.37 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9747,7 +9738,7 @@
 		(dnp no)
 		(uuid "2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(property "Reference" "TVS101"
-			(at 170.434 49.022 90)
+			(at 169.164 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9747,7 @@
 			)
 		)
 		(property "Value" "SMBJ33CA"
-			(at 170.942 51.816 90)
+			(at 169.672 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +9756,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SMB"
-			(at 173.355 46.99 0)
+			(at 172.085 46.99 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -9774,7 +9765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 46.99 0)
+			(at 166.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9774,7 @@
 			)
 		)
 		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-			(at 167.64 46.99 0)
+			(at 166.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9783,7 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ33CA-Q"
-			(at 175.006 46.99 0)
+			(at 173.736 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9792,7 @@
 			)
 		)
 		(property "Product" "SMBJ33CA-Q"
-			(at 177.8 46.99 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9801,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 175.26 46.99 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9810,7 @@
 			)
 		)
 		(property "Rating" "33V"
-			(at 180.34 46.99 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,15 +10050,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 227.33 180.34 0)
 			(effects
 				(font
@@ -10556,7 +10538,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+VLINK")
-		(at 165.1 43.18 90)
+		(at 163.83 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10565,7 +10547,7 @@
 		(fields_autoplaced yes)
 		(uuid "404791d9-9c59-4f23-8d79-40415e5bfc74")
 		(property "Reference" "#PWR0107"
-			(at 177.8 43.18 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10556,7 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 161.29 43.1799 90)
+			(at 160.02 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 43.18 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 43.18 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10583,7 @@
 			)
 		)
 		(property "Description" "Power Over CAT Cable"
-			(at 180.594 43.18 0)
+			(at 179.324 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11043,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 181.61 30.48 90)
+		(at 175.26 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11069,7 +11051,7 @@
 		(dnp no)
 		(uuid "553c16a6-d597-457e-b40e-7b9633983505")
 		(property "Reference" "#PWR0106"
-			(at 187.96 30.48 0)
+			(at 181.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +11060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 30.48 90)
+			(at 182.88 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +11079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,7 +11893,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 181.61 26.67 270)
+		(at 175.26 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11920,7 +11902,7 @@
 		(fields_autoplaced yes)
 		(uuid "72733c83-fda6-43c7-b78f-dbaf56acd4bb")
 		(property "Reference" "#PWR0105"
-			(at 177.8 26.67 0)
+			(at 171.45 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11929,7 +11911,7 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 185.42 26.6699 90)
+			(at 179.07 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11947,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11956,7 +11938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12090,15 +12072,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 240.03 165.1 0)
 			(effects
 				(font
@@ -13563,7 +13536,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 186.69 43.18 270)
+		(at 185.42 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13571,7 +13544,7 @@
 		(dnp no)
 		(uuid "bd610949-c8e0-40b9-8a62-ed67b3918ede")
 		(property "Reference" "#PWR0108"
-			(at 182.88 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,7 +13553,7 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 189.738 43.18 90)
+			(at 188.468 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13589,7 +13562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 43.18 0)
+			(at 185.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +13571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 43.18 0)
+			(at 185.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 43.18 0)
+			(at 185.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +13770,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 181.61 22.86 0)
+		(at 175.26 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13805,7 +13778,7 @@
 		(dnp no)
 		(uuid "ccbb45b3-4b38-4d6c-90f5-20cd90be4fbc")
 		(property "Reference" "#FLG0101"
-			(at 181.61 20.955 0)
+			(at 175.26 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +13787,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.974 22.86 0)
+			(at 166.624 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +13795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 22.86 0)
+			(at 175.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13831,7 +13804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 22.86 0)
+			(at 175.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,7 +13813,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 22.86 0)
+			(at 175.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13939,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+VLINK")
-		(at 181.61 22.86 270)
+		(at 175.26 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13975,7 +13948,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4609d94-71d5-4d8e-b8a9-6491e16db68e")
 		(property "Reference" "#PWR0102"
-			(at 168.91 22.86 0)
+			(at 162.56 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13957,7 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 185.42 22.8599 90)
+			(at 179.07 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +13966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 22.86 0)
+			(at 175.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,7 +13975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 22.86 0)
+			(at 175.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14011,7 +13984,7 @@
 			)
 		)
 		(property "Description" "Power Over CAT Cable"
-			(at 166.116 22.86 0)
+			(at 159.766 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14033,7 +14006,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 181.61 26.67 0)
+		(at 175.26 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14041,7 +14014,7 @@
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
 		(property "Reference" "#FLG0102"
-			(at 181.61 24.765 0)
+			(at 175.26 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14023,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.974 26.67 0)
+			(at 166.624 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14058,7 +14031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14076,7 +14049,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 26.67 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15026,7 +14999,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 181.61 30.48 0)
+		(at 175.26 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15034,7 +15007,7 @@
 		(dnp no)
 		(uuid "fc10c8a8-4fb7-4a44-aa2c-de6b01cdf0c9")
 		(property "Reference" "#FLG0103"
-			(at 181.61 28.575 0)
+			(at 175.26 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15016,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.974 30.48 0)
+			(at 166.624 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15051,7 +15024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15060,7 +15033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15069,7 +15042,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 30.48 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +15750,7 @@
 		)
 	)
 	(sheet
-		(at 171.45 40.64)
+		(at 170.18 40.64)
 		(size 15.24 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15793,7 +15766,7 @@
 		)
 		(uuid "cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e")
 		(property "Sheetname" "Polarity Protection"
-			(at 171.45 39.9284 0)
+			(at 170.18 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15775,7 @@
 			)
 		)
 		(property "Sheetfile" "PolarityProtection.kicad_sch"
-			(at 171.45 46.3046 0)
+			(at 170.18 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15812,7 +15785,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 186.69 43.18 0)
+			(at 185.42 43.18 0)
 			(uuid "85bee085-2f1c-4b55-9b8c-3c1699a71394")
 			(effects
 				(font
@@ -15822,7 +15795,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 171.45 43.18 180)
+			(at 170.18 43.18 180)
 			(uuid "39089bdf-c5a7-4f0c-860a-d59aea175159")
 			(effects
 				(font

@@ -1449,7 +1449,7 @@
 		)
 		(uuid "21e4b950-e99b-4803-a860-aaf4387920a6")
 	)
-	(text "PoE Passive +24V\nIEEE 802.3af Mode B"
+	(text "PoE Passive +28V\nIEEE 802.3af Mode B"
 		(exclude_from_sim no)
 		(at 163.83 158.496 0)
 		(effects
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(uuid "51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(property "Reference" "R901"
-			(at 166.37 82.55 0)
+			(at 165.862 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 165.1 85.09 0)
+			(at 165.862 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1439,7 +1439,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PoE Passive +24V\nIEEE 802.3af Mode B"
+	(text "PoE Passive +28V\nIEEE 802.3af Mode B"
 		(exclude_from_sim no)
 		(at 169.164 150.876 0)
 		(effects
@@ -2353,7 +2353,7 @@
 		(dnp no)
 		(uuid "8be78d92-c52c-403a-8e36-88157418b91c")
 		(property "Reference" "R1001"
-			(at 172.72 74.93 0)
+			(at 172.466 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 171.45 77.47 0)
+			(at 171.958 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
