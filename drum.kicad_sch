@@ -11899,7 +11899,6 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50598476-20b8-4523-bfd2-73922c8536c1")
 		(property "Reference" "#PWR116"
 			(at 212.09 102.87 0)
@@ -11913,7 +11912,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 219.71 102.8699 90)
+			(at 220.218 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13920,7 +13919,6 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87a2d0e7-b7cb-4cac-a55a-b1ce337aceba")
 		(property "Reference" "#PWR117"
 			(at 222.25 106.68 0)
@@ -13934,7 +13932,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 219.71 106.6799 90)
+			(at 220.218 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15454,7 +15452,6 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4609d94-71d5-4d8e-b8a9-6491e16db68e")
 		(property "Reference" "#PWR102"
 			(at 162.56 24.13 0)
@@ -15468,7 +15465,7 @@
 			)
 		)
 		(property "Value" "+VLINK"
-			(at 179.07 24.1299 90)
+			(at 180.34 24.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
