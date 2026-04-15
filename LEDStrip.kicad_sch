@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-03-30")
+		(date "2026-04-14")
 		(rev "2026-03-30")
 		(company "Versio Duo")
+		(comment 1 "Percussion Controller")
 	)
 	(lib_symbols
 		(symbol "V2_74xGxx:74AHC1G125"
@@ -97,6 +98,28 @@
 			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "74xGxx:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "8mA"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -270,7 +293,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -303,7 +326,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -314,7 +337,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -775,7 +820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07833bbc-3842-4936-a51f-4ce64bbefb67")
-		(property "Reference" "#PWR803"
+		(property "Reference" "#PWR0804"
 			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -836,7 +881,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR803")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -929,6 +974,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 175.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1125b076-f917-4cff-838b-2bcd491fe3b0")
 		)
@@ -952,7 +1019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "597a4a5d-9a23-45fe-93a8-9d30998f211e")
-		(property "Reference" "#PWR801"
+		(property "Reference" "#PWR0803"
 			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1012,7 +1079,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR801")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1105,6 +1172,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60870d63-0990-471e-a982-b2592f93784f")
 		)
@@ -1128,7 +1217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8474d786-1984-400b-83fa-5a441a789254")
-		(property "Reference" "#PWR802"
+		(property "Reference" "#PWR0801"
 			(at 139.7 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1188,7 +1277,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR802")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -1205,7 +1294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e379c67-1038-458b-8657-9bdaf7bc7f32")
-		(property "Reference" "#PWR804"
+		(property "Reference" "#PWR0802"
 			(at 139.7 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1266,7 +1355,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR804")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1350,6 +1439,28 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 175.26 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 175.26 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,6 +1570,28 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "74xGxx:${SYMBOL_NAME}"
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "8mA"
+			(at 138.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

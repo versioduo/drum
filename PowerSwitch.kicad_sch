@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-03-30")
+		(date "2026-04-14")
 		(rev "2026-03-30")
-		(comment 1 "Voltage + Current Sense")
+		(company "Versio Duo")
+		(comment 1 "Percussion Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -224,27 +236,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "PMEG2010EPK"
-				(at 0 5.08 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SOD-1608"
-				(at 0 -4.445 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -277,7 +291,7 @@
 				)
 			)
 			(property "Mouser" "771-PMEG2010EPK"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -287,8 +301,19 @@
 					)
 				)
 			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "PMEG2010EPK"
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -299,7 +324,7 @@
 				)
 			)
 			(property "Manufacturer" "Nexperia "
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -310,7 +335,7 @@
 				)
 			)
 			(property "Rating" "20V"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -405,7 +430,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 13.97 0)
+				(at -7.62 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -416,7 +441,7 @@
 				)
 			)
 			(property "Value" "BTT6010"
-				(at -7.62 11.43 0)
+				(at -7.62 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -472,6 +497,17 @@
 			)
 			(property "Manufacturer" "Infineon"
 				(at 0 -43.18 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "PowerSwitch:${SYMBOL_NAME}"
+				(at 0 -38.1 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -813,27 +849,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -867,6 +905,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -998,27 +1047,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1052,6 +1103,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1183,27 +1245,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1237,6 +1301,17 @@
 			)
 			(property "Mouser" "71-CRCW060310K0FKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1368,18 +1443,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 1.778 1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "2k7"
-				(at 1.778 -1.27 0)
+				(at 1.27 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1390,7 +1465,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1424,6 +1499,17 @@
 			)
 			(property "Mouser" "71-CRCW06032K70FKEAC"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1696,7 +1782,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2419,10 +2505,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "036fceae-2b0a-4a30-92f0-60c06f0af53e")
-		(property "Reference" "#PWR401"
+		(property "Reference" "#PWR0409"
 			(at 166.37 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2482,7 +2568,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR401")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -2499,7 +2585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03facdcc-acf7-4329-a0a1-1223e8879803")
-		(property "Reference" "#PWR403"
+		(property "Reference" "#PWR0414"
 			(at 191.77 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2560,7 +2646,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR403")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -2577,7 +2663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d08374-7bfc-404c-8658-26b30b85556d")
-		(property "Reference" "R407"
+		(property "Reference" "R403"
 			(at 121.92 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2674,6 +2760,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 107.95 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56d4b8c6-325d-4114-833f-db85cfbf2632")
 		)
@@ -2683,7 +2780,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R407")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2284926a-d017-4a09-8437-62c891ad65d7")
-		(property "Reference" "R408"
+		(property "Reference" "R402"
 			(at 114.554 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,6 +2894,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbb29661-8552-4be8-a268-de053138a5db")
 		)
@@ -2806,7 +2914,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R408")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -2823,7 +2931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27da3426-286d-4e08-a274-566ff1548749")
-		(property "Reference" "#PWR413"
+		(property "Reference" "#PWR0403"
 			(at 127 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2884,7 +2992,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR413")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2901,7 +3009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c0e0af9-cfd8-47e1-89c9-7a78fbbf09ec")
-		(property "Reference" "R402"
+		(property "Reference" "R410"
 			(at 182.88 46.355 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,6 +3106,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 195.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1c8d7d4-45dc-4268-91da-2f1b7b5be0f7")
 		)
@@ -3007,7 +3126,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R402")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ef2dae8-0f60-4216-a6a7-83d820567af7")
-		(property "Reference" "#PWR409"
+		(property "Reference" "#PWR0412"
 			(at 184.15 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3204,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR409")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37f2f530-8fb5-44d7-bcf6-b7db9f8ca4d6")
-		(property "Reference" "#PWR406"
+		(property "Reference" "#PWR0401"
 			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3163,7 +3282,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR406")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -3180,7 +3299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44fb04ef-ff9e-44fa-a4e1-da7b0a6a3511")
-		(property "Reference" "R409"
+		(property "Reference" "R404"
 			(at 119.38 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3279,6 +3398,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 127 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93fdf643-fa78-4957-aa45-339d54806674")
 		)
@@ -3288,7 +3418,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R409")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -3305,7 +3435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48d27f21-87d5-461d-b5c9-3cc4006b3fca")
-		(property "Reference" "#PWR405"
+		(property "Reference" "#PWR0413"
 			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3366,7 +3496,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR405")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4be24b04-92d9-480f-9a4a-26aef9b95754")
-		(property "Reference" "#PWR404"
+		(property "Reference" "#PWR0411"
 			(at 166.37 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3443,7 +3573,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR404")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b9a4be5-0614-4207-b680-e2afe13c6b18")
-		(property "Reference" "R403"
+		(property "Reference" "R408"
 			(at 168.91 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,6 +3688,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 166.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5b85f07-f27e-469e-a141-b0a305b9152d")
 		)
@@ -3567,7 +3708,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R403")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -3584,7 +3725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d439242-14b5-4e05-ab0e-4840d52b01e7")
-		(property "Reference" "R401"
+		(property "Reference" "R407"
 			(at 168.91 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,6 +3823,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 166.37 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f871111c-fc80-47b6-9652-731c730a889f")
 		)
@@ -3691,7 +3843,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R401")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -3708,7 +3860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6845e73c-8657-4b8c-88cc-5ccf399609c8")
-		(property "Reference" "#PWR411"
+		(property "Reference" "#PWR0407"
 			(at 162.56 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3769,7 +3921,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR411")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -3786,7 +3938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a297412-3179-4b32-986e-193184ebc6d9")
-		(property "Reference" "C403"
+		(property "Reference" "C402"
 			(at 186.69 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,6 +4036,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 184.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59c172a5-3dbe-4db7-b183-57b40077ac3e")
 		)
@@ -3893,7 +4056,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "C403")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -4007,6 +4170,17 @@
 				)
 			)
 		)
+		(property "Id" "PowerSwitch:${SYMBOL_NAME}"
+			(at 146.05 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9a8eb96-92d6-45a5-a39b-5615c9a33c49")
 		)
@@ -4069,11 +4243,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b311e1-2e66-4c89-9291-b3982b301338")
-		(property "Reference" "#PWR407"
+		(property "Reference" "#PWR0404"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4134,7 +4308,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR407")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ff52b19-fc18-41af-a142-b03671bc9d6b")
-		(property "Reference" "R405"
+		(property "Reference" "R401"
 			(at 106.68 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,6 +4422,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 91.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b33f57e-d3b1-4f2e-a30c-97ec438f3ab6")
 		)
@@ -4257,7 +4442,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R405")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -4372,6 +4557,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 158.75 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25511548-95e1-46e6-a47d-91b88cf22209")
 		)
@@ -4398,7 +4594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "960ec836-4a3b-493d-a16d-ad6919ed941c")
-		(property "Reference" "R404"
+		(property "Reference" "R409"
 			(at 168.91 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,6 +4692,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cf2abc5-90f3-43d0-9f70-4b269804bdbe")
 		)
@@ -4505,7 +4712,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R404")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -4522,7 +4729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd9c4ca-5e36-4837-819b-2c01c0df3a99")
-		(property "Reference" "#PWR414"
+		(property "Reference" "#PWR0406"
 			(at 135.89 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4790,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR414")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6cf3ad6-76f4-4052-8c52-fae865016e59")
-		(property "Reference" "#PWR402"
+		(property "Reference" "#PWR0410"
 			(at 166.37 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4868,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR402")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -4776,6 +4983,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 177.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e759af7-7e90-41a1-9141-83be48ee2822")
 		)
@@ -4802,7 +5020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1aba0e4-e741-436f-a707-1e1c9b37bc01")
-		(property "Reference" "R410"
+		(property "Reference" "R405"
 			(at 128.27 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,6 +5119,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "212750d6-0bb2-49f6-8230-0d2ec6f202bd")
 		)
@@ -4910,7 +5139,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "R410")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -4927,7 +5156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56ca9c8-1ebf-4b45-8209-2b0ddf0b6770")
-		(property "Reference" "#PWR408"
+		(property "Reference" "#PWR0408"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +5217,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR408")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf167b39-aa6e-49d5-9569-d7b48b1a1969")
-		(property "Reference" "C404"
+		(property "Reference" "C401"
 			(at 99.695 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,6 +5332,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 107.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37fa08f1-ad80-4884-a1c7-ad8bf851da7f")
 		)
@@ -5112,7 +5352,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "C404")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -5129,7 +5369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3bfa4f0-0813-47a2-813d-877888847e25")
-		(property "Reference" "#PWR412"
+		(property "Reference" "#PWR0402"
 			(at 107.95 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5190,7 +5430,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR412")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -5207,7 +5447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcde216e-71e1-4ea5-bd4d-592ad2571552")
-		(property "Reference" "C402"
+		(property "Reference" "C403"
 			(at 189.23 102.8762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,6 +5545,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 186.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e22160d4-4fb1-4f71-bf7e-f8de8a2487c2")
 		)
@@ -5314,7 +5565,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "C402")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14d358e-402a-493a-bd30-e4c330185f72")
-		(property "Reference" "C401"
+		(property "Reference" "C404"
 			(at 194.31 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,6 +5680,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9aaa7492-f781-4ddd-bad7-fd3e08f62759")
 		)
@@ -5438,7 +5700,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "C401")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -5455,7 +5717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f557b9eb-1bd9-454d-875c-b79864a62e42")
-		(property "Reference" "#PWR410"
+		(property "Reference" "#PWR0405"
 			(at 139.7 127 0)
 			(hide yes)
 			(show_name no)
@@ -5515,7 +5777,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR410")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)

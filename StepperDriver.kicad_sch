@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-03-30")
+		(date "2026-04-14")
 		(rev "2026-03-30")
 		(company "Versio Duo")
+		(comment 1 "Percussion Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u022"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.016 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u022"
-				(at 2.032 -1.524 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -103,6 +104,28 @@
 			)
 			(property "Manufacturer" "YAGEO"
 				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -214,7 +237,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -225,7 +248,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -236,7 +259,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -270,6 +293,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -414,7 +448,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.016 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -425,7 +459,7 @@
 				)
 			)
 			(property "Value" "0u47"
-				(at 2.032 -1.524 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -436,7 +470,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -470,6 +504,17 @@
 			)
 			(property "Mouser" "810-CGA3E3X7R1H474KB"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -614,7 +659,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.016 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -625,7 +670,7 @@
 				)
 			)
 			(property "Value" "4u7"
-				(at 2.032 -1.524 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -636,7 +681,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -692,6 +737,28 @@
 			)
 			(property "Manufacturer" "YAGEO"
 				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "10V"
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -803,7 +870,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -814,7 +881,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -825,7 +892,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1210"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -858,7 +925,18 @@
 				)
 			)
 			(property "Mouser" "810-CNC6P1X7R1H106K2"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -869,7 +947,7 @@
 				)
 			)
 			(property "Rating" "50V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1003,7 +1081,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.27 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1014,7 +1092,7 @@
 				)
 			)
 			(property "Value" "100u"
-				(at 2.286 -1.016 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1058,8 +1136,19 @@
 				)
 			)
 			(property "Mouser" "667-EEE-FKV101XAL"
-				(at 0 -25.4 0)
+				(at 0 -22.86 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -19.05 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1091,7 +1180,7 @@
 				)
 			)
 			(property "Rating" "35V"
-				(at 0 -22.86 0)
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1245,7 +1334,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1278,7 +1367,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1289,7 +1378,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1355,27 +1466,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 41.402 0)
+				(at -12.7 40.64 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "TMC2130-LA"
-				(at 0 38.862 0)
+				(at -12.7 38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
-				(at 0 -49.784 0)
+				(at 0 -58.42 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1410,7 +1523,7 @@
 				)
 			)
 			(property "Manufacturer" "Analog Devices"
-				(at 0 -53.086 0)
+				(at 0 -60.96 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1421,7 +1534,7 @@
 				)
 			)
 			(property "Product" "TMC2130-LA"
-				(at 0 -56.642 0)
+				(at 0 -63.5 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1432,7 +1545,29 @@
 				)
 			)
 			(property "LCSC" "C915795"
-				(at 0 -60.198 0)
+				(at 0 -66.04 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Stepper:${SYMBOL_NAME}"
+				(at 0 -55.88 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "2A"
+				(at 0 -68.58 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2150,27 +2285,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2193,7 +2330,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2204,7 +2341,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2215,7 +2352,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2226,7 +2363,29 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2433,18 +2592,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 1.27 1.016 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "2R2"
-				(at 1.27 -1.016 0)
+				(at 1.27 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2455,7 +2614,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2489,6 +2648,17 @@
 			)
 			(property "Mouser" "71-RCS06032R20JNEA"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2620,27 +2790,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "0R11"
-				(at 3.81 -1.524 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "0R11"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0805"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2674,6 +2846,17 @@
 			)
 			(property "Mouser" "667-ERJ-6DSFR11V"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2946,7 +3129,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4032,7 +4215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
-		(property "Reference" "C704"
+		(property "Reference" "C707"
 			(at 162.052 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,6 +4314,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 158.75 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a426fc73-965f-4a7b-b830-6ad77cb9894a")
 		)
@@ -4140,7 +4334,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C704")
+					(reference "C707")
 					(unit 1)
 				)
 			)
@@ -4157,7 +4351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe3142c-31a3-45e9-8e7d-18b2b579033d")
-		(property "Reference" "C706"
+		(property "Reference" "C701"
 			(at 102.87 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,6 +4439,28 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 110.49 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a72c5016-23e2-46b9-bd66-5264ef799ecc")
 		)
@@ -4254,7 +4470,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C706")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -4268,11 +4484,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fe9dbc6-040a-4f27-8c19-d4042580ccc6")
-		(property "Reference" "#PWR708"
+		(property "Reference" "#PWR0706"
 			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4333,7 +4549,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR708")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -4438,6 +4654,28 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d269f2b-bf44-4049-81e7-34dd911b9285")
 		)
@@ -4464,7 +4702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "138430b5-5815-4ef4-97be-ca6e49754c80")
-		(property "Reference" "C705"
+		(property "Reference" "C708"
 			(at 173.482 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,6 +4801,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "523b4db1-d5b5-4557-a116-0f865380fff0")
 		)
@@ -4572,7 +4821,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C705")
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -4590,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13fd5a71-a965-48d0-8e3e-a987594ffb01")
-		(property "Reference" "#PWR714"
+		(property "Reference" "#PWR0717"
 			(at 198.12 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4652,7 +4901,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR714")
+					(reference "#PWR0717")
 					(unit 1)
 				)
 			)
@@ -4757,6 +5006,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 157.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 157.48 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ef36004-8139-4bb7-b871-7701222fa4ac")
 		)
@@ -4789,7 +5060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c8571a5-acd7-4925-872d-6e76b48aa7fa")
-		(property "Reference" "C701"
+		(property "Reference" "C703"
 			(at 115.824 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,6 +5158,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e5688c3-d249-4db0-aae1-54009e683687")
 		)
@@ -4896,7 +5178,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C701")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -4914,7 +5196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3083446d-8f0e-422a-b4df-4a274dbcf01d")
-		(property "Reference" "#PWR715"
+		(property "Reference" "#PWR0715"
 			(at 181.61 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4976,7 +5258,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR715")
+					(reference "#PWR0715")
 					(unit 1)
 				)
 			)
@@ -4993,7 +5275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "376f8b53-4339-43a5-94bc-b3be87ac5238")
-		(property "Reference" "#PWR716"
+		(property "Reference" "#PWR0711"
 			(at 161.29 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5053,7 +5335,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR716")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -5071,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f20cffb-f180-46c9-a9b2-5adf4b6ba0d0")
-		(property "Reference" "#PWR713"
+		(property "Reference" "#PWR0716"
 			(at 198.12 127 0)
 			(hide yes)
 			(show_name no)
@@ -5133,7 +5415,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR713")
+					(reference "#PWR0716")
 					(unit 1)
 				)
 			)
@@ -5247,6 +5529,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76d6e286-a258-4f5b-ad19-8cb779db14b5")
 		)
@@ -5273,7 +5566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d05b3f6-198d-47a3-899d-33d249682017")
-		(property "Reference" "#PWR703"
+		(property "Reference" "#PWR0704"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5334,7 +5627,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR703")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -5351,7 +5644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64b2bce4-5075-4ff7-92dc-a36458283ceb")
-		(property "Reference" "C708"
+		(property "Reference" "C705"
 			(at 131.064 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,6 +5742,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cede60bd-fa69-40db-9811-fb234162116e")
 		)
@@ -5458,7 +5762,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C708")
+					(reference "C705")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64fe2d3d-f8a7-4521-81a6-4367e45f3cac")
-		(property "Reference" "#PWR704"
+		(property "Reference" "#PWR0714"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5536,7 +5840,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR704")
+					(reference "#PWR0714")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a51717b-758d-45aa-87c0-c4df878610d9")
-		(property "Reference" "#PWR710"
+		(property "Reference" "#PWR0708"
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5616,7 +5920,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR710")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -5634,7 +5938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "794bed67-c6fe-4917-909e-c35d3b8beebb")
-		(property "Reference" "#PWR705"
+		(property "Reference" "#PWR0705"
 			(at 143.51 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +5999,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR705")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -5713,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aedc456-61de-4353-aa00-fa41d1d4b2cd")
-		(property "Reference" "#PWR701"
+		(property "Reference" "#PWR0703"
 			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5773,7 +6077,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR701")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -5787,11 +6091,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd08665-c1f8-477f-99ca-ce07607b001c")
-		(property "Reference" "#PWR709"
+		(property "Reference" "#PWR0707"
 			(at 143.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5852,7 +6156,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR709")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -5870,7 +6174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7dcbff-6b76-4ec4-8d15-6ead4eb412dd")
-		(property "Reference" "#PWR707"
+		(property "Reference" "#PWR0702"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5931,7 +6235,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR707")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "934d0330-567c-41fe-b495-2275bdcec8da")
-		(property "Reference" "C702"
+		(property "Reference" "C704"
 			(at 137.16 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,6 +6351,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7a36bf6-00f8-4ea3-86f8-2607e2293ee9")
 		)
@@ -6056,7 +6371,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C702")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -6073,7 +6388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "966398d5-f811-4ade-bc2b-fae4d1917c51")
-		(property "Reference" "C703"
+		(property "Reference" "C706"
 			(at 149.86 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,6 +6487,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de637d23-2511-4333-90cf-a0683b9fe948")
 		)
@@ -6181,7 +6507,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C703")
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -6266,6 +6592,28 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 189.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,6 +6723,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef1428c7-083e-4042-8ac7-d3eb7e2c2bec")
 		)
@@ -6399,7 +6769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac97314e-bef2-4841-a8e3-73cc781efb2b")
-		(property "Reference" "#PWR711"
+		(property "Reference" "#PWR0709"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6461,7 +6831,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR711")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -6479,7 +6849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c057e6c3-1e64-4e65-a8a9-acbeb7ef3c66")
-		(property "Reference" "#PWR706"
+		(property "Reference" "#PWR0701"
 			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6910,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR706")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -6646,6 +7016,17 @@
 		)
 		(property "Rating" "500mW"
 			(at 137.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,6 +7142,28 @@
 		)
 		(property "LCSC" "C915795"
 			(at 157.48 166.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Stepper:${SYMBOL_NAME}"
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2A"
+			(at 157.48 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,6 +7381,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36227c16-a55a-40d4-b4e8-8640ec791e1c")
 		)
@@ -7098,6 +7523,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2264cc8d-cfc7-47b8-8dc6-b6596447374f")
 		)
@@ -7121,11 +7557,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41209f4-a2a4-468c-b5ab-bf7effa7dc46")
-		(property "Reference" "#PWR702"
+		(property "Reference" "#PWR0713"
 			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7185,7 +7621,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR702")
+					(reference "#PWR0713")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9feafc0-7605-463c-ab43-73a5a7113a3d")
-		(property "Reference" "C707"
+		(property "Reference" "C702"
 			(at 115.316 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC0603JR6BB474"
+		(property "Mouser" "810-CGA3E3X7R1H474KB"
 			(at 123.19 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -7268,7 +7704,7 @@
 				)
 			)
 		)
-		(property "Product" "CC0603JRX7R6BB474"
+		(property "Product" "CGA3E3X7R1H474K080AB"
 			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7279,8 +7715,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,7 +7757,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "C707")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -7317,7 +7775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea295958-7b16-4301-9e0c-92e9527b34cd")
-		(property "Reference" "#PWR712"
+		(property "Reference" "#PWR0710"
 			(at 133.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7837,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR712")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -7473,6 +7931,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c40834a-676b-4781-b8da-9fa14af669e3")
 		)
@@ -7496,7 +7976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4b43d4-80c7-4a78-b71b-ea36c5dc5aee")
-		(property "Reference" "#PWR717"
+		(property "Reference" "#PWR0712"
 			(at 171.45 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7557,7 +8037,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR717")
+					(reference "#PWR0712")
 					(unit 1)
 				)
 			)
@@ -7574,7 +8054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffb62d9c-8028-445f-841b-27c581c7afdd")
-		(property "Reference" "#FLG701"
+		(property "Reference" "#FLG0701"
 			(at 124.46 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -7634,7 +8114,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#FLG701")
+					(reference "#FLG0701")
 					(unit 1)
 				)
 			)
