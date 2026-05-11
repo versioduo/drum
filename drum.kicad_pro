@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -817,7 +833,7 @@
         "uuid": "6c8448b4-b04d-47e1-934e-e40cbe27a7be"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TVS101,J101-102,J501-502,J601-602,J701-704,J801-803,J901,J1001,SWB101,R101-104,R201-202,R401-410,R701-703,R901,R1001,H101-104,FID101-103,Q201-202,Q501,Q601,Y101,#PWR101-140,#PWR201-203,#PWR301-308,#PWR401-414,#PWR501-503,#PWR601-603,#PWR701-717,#PWR801-804,#PWR901-904,#PWR1001-1004,D101-103,D401,D501-502,D601-602,D701,U101-102,U201,U301,U401,U701,U801,U901,U1001,SW101-102,C101-110,C201-202,C301-305,C401-404,C501,C601,C701-709,C901,C1001,ICON101-103,ESD101,INFO101-102,#FLG101-105,#FLG701",
     "variants": []
   },
   "sheets": [
