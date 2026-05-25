@@ -17,17 +17,17 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pads": false,
-      "text": true,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -76,6 +76,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -90,7 +92,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "col_widths": [
       156,
@@ -104,7 +108,9 @@
       103,
       103,
       103,
-      51
+      103,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
