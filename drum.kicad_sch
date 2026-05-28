@@ -9281,7 +9281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dcd9b0-f4f5-4ff5-92d0-1d37c083eb45")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR133"
 			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9293,12 +9293,13 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 231.14 138.43 90)
+			(at 231.648 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -9341,7 +9342,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0133")
+					(reference "#PWR133")
 					(unit 1)
 				)
 			)
@@ -9370,7 +9371,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 114.3 25.4062 0)
+			(at 113.792 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9493,7 +9494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0471926a-3950-43fa-a586-9054138c6e5f")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR119"
 			(at 127 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9554,7 +9555,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0119")
+					(reference "#PWR119")
 					(unit 1)
 				)
 			)
@@ -9571,7 +9572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056079d2-3ad3-4d82-b61e-ffbc0d6f15e4")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR109"
 			(at 55.88 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9589,6 +9590,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -9631,7 +9633,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0109")
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -9782,7 +9784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09b12e1c-4dcf-4374-904e-884e738b1c35")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR123"
 			(at 168.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +9846,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0123")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -9861,7 +9863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "107a1967-8a7b-4783-8c67-dd6285453328")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR110"
 			(at 55.88 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9922,7 +9924,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0110")
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -9939,7 +9941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1090cb48-dc6b-438f-a60b-1c2a31ca2d6e")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR112"
 			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10000,7 +10002,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0112")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1953e842-0a90-4aa7-b581-212fd2cd9415")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR102"
 			(at 26.67 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10312,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0102")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -10327,7 +10329,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "195dfc1c-869f-476e-8094-9c9c21301267")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR124"
 			(at 167.64 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10387,7 +10389,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0124")
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -10550,7 +10552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2099139d-7804-4997-9aee-952305f25158")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR111"
 			(at 57.15 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +10613,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0111")
+					(reference "#PWR111")
 					(unit 1)
 				)
 			)
@@ -10907,7 +10909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22bcca11-728d-447f-905e-b867679c15da")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR131"
 			(at 212.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10969,7 +10971,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0131")
+					(reference "#PWR131")
 					(unit 1)
 				)
 			)
@@ -11552,7 +11554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375306fb-e86f-46d7-9105-e1b818c84990")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR113"
 			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11564,12 +11566,13 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 17.78 0)
+			(at 72.39 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -11612,7 +11615,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0113")
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -11629,7 +11632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3964a055-c6a7-4451-8a14-9c03d62eb8ea")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR118"
 			(at 127 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11647,6 +11650,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -11689,7 +11693,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0118")
+					(reference "#PWR118")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d931ac1-f6a4-41af-9bb4-201685b566d8")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR107"
 			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11724,6 +11728,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -11766,7 +11771,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0107")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -11784,7 +11789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "404791d9-9c59-4f23-8d79-40415e5bfc74")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR122"
 			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11845,7 +11850,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0122")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -12036,7 +12041,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 124.46 25.4062 0)
+			(at 123.952 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12250,7 +12255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50e843f1-1ba0-4cef-a032-494d2940de7c")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR101"
 			(at 21.59 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12311,7 +12316,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -12328,7 +12333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "553c16a6-d597-457e-b40e-7b9633983505")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR127"
 			(at 181.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12390,7 +12395,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0127")
+					(reference "#PWR127")
 					(unit 1)
 				)
 			)
@@ -12407,7 +12412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1432c2-d084-4c9f-81c4-c015ec63a0bc")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR117"
 			(at 106.68 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12468,7 +12473,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0117")
+					(reference "#PWR117")
 					(unit 1)
 				)
 			)
@@ -12811,7 +12816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d4a8ed6-8b2a-473e-b9dc-c684dffa2005")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR134"
 			(at 232.41 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12872,7 +12877,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0134")
+					(reference "#PWR134")
 					(unit 1)
 				)
 			)
@@ -13031,7 +13036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6481033e-4277-488b-8ee2-f08211f463c0")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR103"
 			(at 30.48 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13049,6 +13054,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -13091,7 +13097,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -13108,7 +13114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69b3843b-e8b9-4f3c-a182-6bd9b57b7de7")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR108"
 			(at 57.15 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13120,14 +13126,14 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 46.99 46.99 90)
+			(at 46.482 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -13169,7 +13175,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0108")
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -13186,7 +13192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6738db-5b07-4846-8452-3aec4fabcb36")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR114"
 			(at 78.74 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13247,7 +13253,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0114")
+					(reference "#PWR114")
 					(unit 1)
 				)
 			)
@@ -13264,7 +13270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f43d366-4b18-4a8c-ad8c-aec186c40610")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR137"
 			(at 260.35 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13325,7 +13331,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0137")
+					(reference "#PWR137")
 					(unit 1)
 				)
 			)
@@ -13341,9 +13347,8 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72733c83-fda6-43c7-b78f-dbaf56acd4bb")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR126"
 			(at 171.45 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13355,14 +13360,14 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 179.07 27.9399 90)
+			(at 181.356 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13404,7 +13409,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0126")
+					(reference "#PWR126")
 					(unit 1)
 				)
 			)
@@ -13421,7 +13426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77df6a97-6fb3-4f04-ae90-4acc6d3926a3")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR115"
 			(at 100.33 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13482,7 +13487,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0115")
+					(reference "#PWR115")
 					(unit 1)
 				)
 			)
@@ -13726,7 +13731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819dcccb-fbf4-40dc-88e4-a3496c9ef425")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR116"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13744,6 +13749,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -13786,7 +13792,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0116")
+					(reference "#PWR116")
 					(unit 1)
 				)
 			)
@@ -13804,7 +13810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82ab78b0-a54f-4bcf-a861-45045d2d16de")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR130"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13866,7 +13872,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0130")
+					(reference "#PWR130")
 					(unit 1)
 				)
 			)
@@ -14018,7 +14024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "872abcc5-97de-45db-bc80-84c43b801010")
-		(property "Reference" "#FLG0104"
+		(property "Reference" "#FLG104"
 			(at 215.9 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -14078,7 +14084,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0104")
+					(reference "#FLG104")
 					(unit 1)
 				)
 			)
@@ -14170,7 +14176,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "87a2d0e7-b7cb-4cac-a55a-b1ce337aceba")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR132"
 			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14231,7 +14237,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0132")
+					(reference "#PWR132")
 					(unit 1)
 				)
 			)
@@ -14530,7 +14536,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 58.674 26.162 0)
+			(at 59.69 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14654,7 +14660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ad24f7-46c7-43f4-bf6c-948ed68979f3")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR104"
 			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14715,7 +14721,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0104")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -14944,7 +14950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a7e4a3-4717-4ede-a100-10364abad362")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR138"
 			(at 279.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15005,7 +15011,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0138")
+					(reference "#PWR138")
 					(unit 1)
 				)
 			)
@@ -15022,7 +15028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adb50803-13ff-48ce-b94f-a815ee97105b")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR106"
 			(at 43.18 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +15089,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0106")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -15100,7 +15106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af3092f3-ec71-4b35-b5f2-88a2045939cd")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR121"
 			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15161,7 +15167,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0121")
+					(reference "#PWR121")
 					(unit 1)
 				)
 			)
@@ -15312,7 +15318,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "bd610949-c8e0-40b9-8a62-ed67b3918ede")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR129"
 			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15324,14 +15330,14 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 191.008 43.18 90)
+			(at 194.564 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15373,7 +15379,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0129")
+					(reference "#PWR129")
 					(unit 1)
 				)
 			)
@@ -15402,7 +15408,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 104.14 25.4 0)
+			(at 103.632 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15601,7 +15607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbb45b3-4b38-4d6c-90f5-20cd90be4fbc")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG101"
 			(at 175.26 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -15661,7 +15667,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0101")
+					(reference "#FLG101")
 					(unit 1)
 				)
 			)
@@ -15690,7 +15696,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 83.82 25.4 0)
+			(at 83.312 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15813,7 +15819,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "d4609d94-71d5-4d8e-b8a9-6491e16db68e")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR125"
 			(at 162.56 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15874,7 +15880,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0125")
+					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -15891,7 +15897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f32978-c184-493b-b9aa-7eb455de601e")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG102"
 			(at 175.26 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -15951,7 +15957,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0102")
+					(reference "#FLG102")
 					(unit 1)
 				)
 			)
@@ -16043,7 +16049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da329a7e-d779-4dbe-a326-f9e4577e4ff1")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR128"
 			(at 175.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16104,7 +16110,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0128")
+					(reference "#PWR128")
 					(unit 1)
 				)
 			)
@@ -16255,7 +16261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f17297-6a4c-46d8-b68d-89b74bb0c432")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR120"
 			(at 123.19 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16316,7 +16322,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0120")
+					(reference "#PWR120")
 					(unit 1)
 				)
 			)
@@ -16333,7 +16339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9d0d2d7-a3e7-4a08-9346-3e467d51dfe9")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR135"
 			(at 260.35 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16394,7 +16400,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0135")
+					(reference "#PWR135")
 					(unit 1)
 				)
 			)
@@ -16558,7 +16564,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 93.98 25.4 0)
+			(at 93.472 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16965,9 +16971,8 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fac4af30-2d34-41fb-af0a-da885388f2ab")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR105"
 			(at 38.1 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16979,14 +16984,14 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 30.48 153.6699 90)
+			(at 27.432 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17028,7 +17033,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0105")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
@@ -17045,7 +17050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc10c8a8-4fb7-4a44-aa2c-de6b01cdf0c9")
-		(property "Reference" "#FLG0103"
+		(property "Reference" "#FLG103"
 			(at 175.26 29.845 0)
 			(hide yes)
 			(show_name no)
@@ -17105,7 +17110,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0103")
+					(reference "#FLG103")
 					(unit 1)
 				)
 			)
@@ -17198,7 +17203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa6d87f-2dbd-401b-8561-781d4c1ed3dd")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR136"
 			(at 279.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17259,7 +17264,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0136")
+					(reference "#PWR136")
 					(unit 1)
 				)
 			)

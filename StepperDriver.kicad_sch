@@ -3626,109 +3626,121 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 86.36 35.56)
+		(end 219.71 171.45)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a0f3277d-e951-4814-a817-e9e1db330abd")
+	)
 	(junction
-		(at 175.26 137.16)
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "024b5884-8ac6-4b8d-9e57-e5ae74d9ea0f")
+	)
+	(junction
+		(at 172.72 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0250fbda-71f5-4bb0-886f-67caa4d12d30")
 	)
 	(junction
-		(at 170.18 46.99)
+		(at 167.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0405092a-1ee0-4b8f-88e1-4143f0f178f4")
 	)
 	(junction
-		(at 139.7 88.9)
+		(at 137.16 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "092d89e7-c977-4217-b357-165864a30eb1")
 	)
 	(junction
-		(at 175.26 139.7)
+		(at 172.72 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b3a27e1-2a62-4f88-8eaf-b81df0bf8749")
 	)
 	(junction
-		(at 158.75 46.99)
+		(at 156.21 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12aa0b71-c3f0-4401-9013-3dd71a72ea61")
 	)
 	(junction
-		(at 123.19 78.74)
+		(at 116.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17c4ecee-0aee-4dc9-91f9-7383be52a945")
 	)
 	(junction
-		(at 147.32 46.99)
+		(at 144.78 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cc24404-a35e-4b4e-b502-462a1a624faa")
 	)
 	(junction
-		(at 147.32 52.07)
+		(at 144.78 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4886ae8d-0d43-4f22-ac93-b5806e8091ba")
 	)
 	(junction
-		(at 124.46 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a1dc4ca-9ada-432e-a757-4de3cb555dd8")
-	)
-	(junction
-		(at 170.18 52.07)
+		(at 167.64 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "673ab0fe-6483-4a1b-aaf6-6ad1c8823f0a")
 	)
 	(junction
-		(at 110.49 78.74)
+		(at 104.14 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1887f94-9577-495a-868d-586151e6fd4c")
 	)
 	(junction
-		(at 158.75 52.07)
+		(at 156.21 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f435a609-70c3-4ed3-938d-f9ce7718b2f2")
 	)
 	(no_connect
-		(at 175.26 119.38)
+		(at 172.72 119.38)
 		(uuid "130c47f5-cb97-42c4-b030-a914c5175abc")
 	)
 	(no_connect
-		(at 139.7 111.76)
+		(at 137.16 111.76)
 		(uuid "4279980b-0fc5-4591-9b25-e1ba63bbed60")
 	)
 	(no_connect
-		(at 139.7 119.38)
+		(at 137.16 119.38)
 		(uuid "5936d974-fd44-4eb2-ad1a-faacd24239b3")
 	)
 	(no_connect
-		(at 139.7 96.52)
+		(at 137.16 96.52)
 		(uuid "830fa15a-4210-43e4-baa8-db13f783234e")
 	)
 	(no_connect
-		(at 139.7 101.6)
+		(at 137.16 101.6)
 		(uuid "8b3d3a64-0e1c-49e5-a26e-b49c952fc6a1")
 	)
 	(no_connect
-		(at 139.7 109.22)
+		(at 137.16 109.22)
 		(uuid "caeedec9-e5d9-445d-acfe-7e8185e340e1")
 	)
 	(no_connect
-		(at 175.26 121.92)
+		(at 172.72 121.92)
 		(uuid "fa4262e8-e4af-49ca-a81b-7dec14cf38cf")
 	)
 	(wire
 		(pts
-			(xy 184.15 81.28) (xy 175.26 81.28)
+			(xy 181.61 81.28) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 110.49 78.74)
+			(xy 104.14 73.66) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3746,19 +3758,9 @@
 		)
 		(uuid "101f3857-71b5-4fa1-84ee-726acd6ca173")
 	)
-	(polyline
-		(pts
-			(xy 87.63 34.29) (xy 213.36 34.29)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "135c00be-c91d-4e37-a43e-633b699894cf")
-	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 175.26 83.82)
+			(xy 181.61 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3766,19 +3768,9 @@
 		)
 		(uuid "19086d12-ae3b-4967-8e9f-1f41da30cda7")
 	)
-	(polyline
-		(pts
-			(xy 87.63 34.29) (xy 87.63 173.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "19f1e3bc-1dc3-48db-ab52-5ec6f72157f3")
-	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 139.7 132.08)
+			(xy 86.36 132.08) (xy 137.16 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 158.75) (xy 212.09 158.75)
+			(xy 162.56 158.75) (xy 219.71 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 175.26 76.2)
+			(xy 181.61 76.2) (xy 172.72 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3808,17 +3800,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347a78c9-7ef8-4e70-a0b2-d944f3f8f3c4")
-	)
-	(wire
-		(pts
-			(xy 134.62 46.99) (xy 147.32 46.99)
+			(xy 132.08 46.99) (xy 144.78 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 134.62) (xy 175.26 137.16)
+			(xy 172.72 134.62) (xy 172.72 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 124.46 78.74)
+			(xy 116.84 78.74) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3848,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 127) (xy 139.7 127)
+			(xy 86.36 127) (xy 137.16 127)
 		)
 		(stroke
 			(width 0)
@@ -3858,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 52.07) (xy 158.75 52.07)
+			(xy 144.78 52.07) (xy 156.21 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3868,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 139.7 137.16)
+			(xy 86.36 137.16) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3860,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 139.7 73.66)
+			(xy 104.14 73.66) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 147.32 52.07)
+			(xy 132.08 52.07) (xy 144.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +3880,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 127) (xy 186.69 127)
+			(xy 120.65 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d94a0c-41a7-4084-a59a-532b43026fd3")
+	)
+	(wire
+		(pts
+			(xy 172.72 127) (xy 184.15 127)
 		)
 		(stroke
 			(width 0)
@@ -3908,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 158.75 46.99)
+			(xy 144.78 46.99) (xy 156.21 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 134.62) (xy 139.7 134.62)
+			(xy 86.36 134.62) (xy 137.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 139.7) (xy 139.7 139.7)
+			(xy 86.36 139.7) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3936,19 +3928,9 @@
 		)
 		(uuid "8da02a7a-ed48-4d81-8586-ff9dcd880957")
 	)
-	(polyline
-		(pts
-			(xy 213.36 173.99) (xy 87.63 173.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9d694ce1-e3f1-48c2-b7b1-ba86904c50c6")
-	)
 	(wire
 		(pts
-			(xy 119.38 78.74) (xy 123.19 78.74)
+			(xy 113.03 78.74) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 110.49 78.74)
+			(xy 107.95 78.74) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 139.7 116.84)
+			(xy 86.36 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 186.69 129.54)
+			(xy 172.72 129.54) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3986,19 +3968,9 @@
 		)
 		(uuid "ceeb2ba1-48c7-458b-bb28-352af274e5fb")
 	)
-	(polyline
-		(pts
-			(xy 213.36 34.29) (xy 213.36 173.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "da4ab74a-c6d6-4e6e-b828-72e50e5ae38a")
-	)
 	(wire
 		(pts
-			(xy 175.26 137.16) (xy 175.26 139.7)
+			(xy 172.72 137.16) (xy 172.72 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 158.75) (xy 149.86 158.75)
+			(xy 86.36 158.75) (xy 147.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 46.99) (xy 170.18 46.99)
+			(xy 156.21 46.99) (xy 167.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4028,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 175.26 73.66)
+			(xy 181.61 73.66) (xy 172.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4038,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 170.18 52.07)
+			(xy 156.21 52.07) (xy 167.64 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4047,7 +4019,7 @@
 		(uuid "fb9df00f-f415-4a19-97d4-77bb84f53131")
 	)
 	(label "Out-A1"
-		(at 184.15 73.66 180)
+		(at 181.61 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4057,7 +4029,7 @@
 		(uuid "027087aa-09c6-4c14-9265-b03e20c10ec1")
 	)
 	(label "Out-A2"
-		(at 184.15 76.2 180)
+		(at 181.61 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4067,7 +4039,7 @@
 		(uuid "203cff1d-507a-460f-9856-be2f6d3e2f97")
 	)
 	(label "LDO-5V"
-		(at 125.73 73.66 0)
+		(at 123.19 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,7 +4049,7 @@
 		(uuid "34df7d4e-9f9f-49f4-b027-afee4b671fae")
 	)
 	(label "Out-B1"
-		(at 184.15 81.28 180)
+		(at 181.61 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4059,7 @@
 		(uuid "51f51df7-58b4-4253-85d0-e6d4f694ff72")
 	)
 	(label "Out-B2"
-		(at 184.15 83.82 180)
+		(at 181.61 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4097,7 +4069,7 @@
 		(uuid "79720e52-be6f-4535-8951-dfd7136a7f89")
 	)
 	(label "Sense-A"
-		(at 185.42 127 180)
+		(at 182.88 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,7 +4079,7 @@
 		(uuid "9a220716-866a-4e46-bcef-f9b5d4990270")
 	)
 	(label "Sense-B"
-		(at 185.42 129.54 180)
+		(at 182.88 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,7 +4090,7 @@
 	)
 	(hierarchical_label "Enable"
 		(shape input)
-		(at 88.9 127 180)
+		(at 86.36 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4129,7 +4101,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 88.9 137.16 180)
+		(at 86.36 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4140,7 +4112,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 88.9 132.08 180)
+		(at 86.36 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4123,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 88.9 134.62 180)
+		(at 86.36 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4162,7 +4134,7 @@
 	)
 	(hierarchical_label "Step"
 		(shape input)
-		(at 88.9 116.84 180)
+		(at 86.36 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,7 +4145,7 @@
 	)
 	(hierarchical_label "LED-Out"
 		(shape output)
-		(at 212.09 158.75 0)
+		(at 219.71 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4184,7 +4156,7 @@
 	)
 	(hierarchical_label "SDO"
 		(shape output)
-		(at 88.9 139.7 180)
+		(at 86.36 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4195,7 +4167,7 @@
 	)
 	(hierarchical_label "LED-In"
 		(shape input)
-		(at 88.9 158.75 180)
+		(at 86.36 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4206,7 +4178,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:3225_10u")
-		(at 158.75 49.53 0)
+		(at 156.21 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4216,7 +4188,7 @@
 		(dnp no)
 		(uuid "08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(property "Reference" "C707"
-			(at 162.052 48.514 0)
+			(at 159.512 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4227,7 +4199,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 162.306 50.546 0)
+			(at 159.766 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4238,7 +4210,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_3225"
-			(at 158.75 66.548 0)
+			(at 156.21 66.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 49.53 0)
+			(at 156.21 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,7 +4232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 62.992 0)
+			(at 156.21 62.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,7 +4243,7 @@
 			)
 		)
 		(property "Mouser" "810-CNC6P1X7R1H106K2"
-			(at 158.75 66.04 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4254,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 158.75 68.58 0)
+			(at 156.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +4265,7 @@
 			)
 		)
 		(property "Product" "CNC6P1X7R1H106K250AE"
-			(at 158.75 67.31 0)
+			(at 156.21 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,7 +4276,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 158.75 64.77 0)
+			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4287,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 158.75 64.77 0)
+			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4314,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_4u7")
-		(at 110.49 81.28 0)
+		(at 104.14 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4352,7 +4324,7 @@
 		(dnp no)
 		(uuid "0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(property "Reference" "C701"
-			(at 102.87 81.28 0)
+			(at 106.426 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4363,7 +4335,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 103.124 83.566 0)
+			(at 106.68 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4374,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 110.49 98.298 0)
+			(at 104.14 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 81.28 0)
+			(at 104.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +4368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 94.742 0)
+			(at 104.14 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4379,7 @@
 			)
 		)
 		(property "Mouser" "603-CC603KRX5R6BB475"
-			(at 110.49 98.298 0)
+			(at 104.14 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4390,7 @@
 			)
 		)
 		(property "Product" "CC0603KRX5R6BB475"
-			(at 110.49 99.06 0)
+			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +4401,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 110.49 96.52 0)
+			(at 104.14 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4440,7 +4412,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 110.49 93.98 0)
+			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4451,7 +4423,7 @@
 			)
 		)
 		(property "Rating" "10V"
-			(at 110.49 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4450,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 139.7 88.9 90)
+		(at 137.16 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4486,10 +4458,9 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fe9dbc6-040a-4f27-8c19-d4042580ccc6")
-		(property "Reference" "#PWR0706"
-			(at 143.51 88.9 0)
+		(property "Reference" "#PWR706"
+			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,18 +4471,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 135.89 88.8999 90)
+			(at 131.064 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,7 +4504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,7 +4520,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0706")
+					(reference "#PWR706")
 					(unit 1)
 				)
 			)
@@ -4557,7 +4528,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u022")
-		(at 175.26 91.44 0)
+		(at 172.72 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4567,7 +4538,7 @@
 		(dnp no)
 		(uuid "112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(property "Reference" "C709"
-			(at 177.8 90.17 0)
+			(at 175.26 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4578,7 +4549,7 @@
 			)
 		)
 		(property "Value" "0u022"
-			(at 177.292 92.964 0)
+			(at 174.752 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4589,7 +4560,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 175.26 108.458 0)
+			(at 172.72 108.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 91.44 0)
+			(at 172.72 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 104.902 0)
+			(at 172.72 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4593,7 @@
 			)
 		)
 		(property "Mouser" "603-CC603KPX7R9BB223"
-			(at 175.26 108.458 0)
+			(at 172.72 108.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4604,7 @@
 			)
 		)
 		(property "Product" "CC0603KPX7R9BB223"
-			(at 175.26 109.22 0)
+			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4644,7 +4615,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 175.26 106.68 0)
+			(at 172.72 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,7 +4626,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 175.26 104.14 0)
+			(at 172.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4637,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 175.26 114.3 0)
+			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4693,7 +4664,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:3225_10u")
-		(at 170.18 49.53 0)
+		(at 167.64 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4703,7 +4674,7 @@
 		(dnp no)
 		(uuid "138430b5-5815-4ef4-97be-ca6e49754c80")
 		(property "Reference" "C708"
-			(at 173.482 48.514 0)
+			(at 170.942 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4714,7 +4685,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 173.736 50.546 0)
+			(at 171.196 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_3225"
-			(at 170.18 66.548 0)
+			(at 167.64 66.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 49.53 0)
+			(at 167.64 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 62.992 0)
+			(at 167.64 62.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4729,7 @@
 			)
 		)
 		(property "Mouser" "810-CNC6P1X7R1H106K2"
-			(at 170.18 66.04 0)
+			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4740,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 170.18 68.58 0)
+			(at 167.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +4751,7 @@
 			)
 		)
 		(property "Product" "CNC6P1X7R1H106K250AE"
-			(at 170.18 67.31 0)
+			(at 167.64 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +4762,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 170.18 64.77 0)
+			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,7 +4773,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 170.18 64.77 0)
+			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4800,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 191.77 129.54 90)
+		(at 189.23 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4839,8 +4810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13fd5a71-a965-48d0-8e3e-a987594ffb01")
-		(property "Reference" "#PWR0717"
-			(at 198.12 129.54 0)
+		(property "Reference" "#PWR717"
+			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 129.5399 90)
+			(at 193.04 129.5399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4863,7 +4834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 129.54 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4874,7 +4845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 129.54 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +4856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 129.54 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,7 +4872,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0717")
+					(reference "#PWR717")
 					(unit 1)
 				)
 			)
@@ -4909,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "V2_LED:WS2812")
-		(at 157.48 160.02 0)
+		(at 154.94 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4919,7 +4890,7 @@
 		(dnp no)
 		(uuid "177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(property "Reference" "D701"
-			(at 156.21 149.86 0)
+			(at 153.67 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4929,7 +4900,7 @@
 			)
 		)
 		(property "Value" "WS2812"
-			(at 156.21 152.4 0)
+			(at 153.67 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4939,7 +4910,7 @@
 			)
 		)
 		(property "Footprint" "V2_LED:WS2812-2020"
-			(at 157.48 163.83 0)
+			(at 154.94 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 169.545 0)
+			(at 157.48 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +4934,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 157.48 160.02 0)
+			(at 154.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +4945,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 157.48 175.514 0)
+			(at 154.94 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +4956,7 @@
 			)
 		)
 		(property "Product" "WS2812B-2020"
-			(at 157.48 172.974 0)
+			(at 154.94 172.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +4967,7 @@
 			)
 		)
 		(property "LCSC" "C965555"
-			(at 157.48 178.308 0)
+			(at 154.94 178.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,7 +4978,7 @@
 			)
 		)
 		(property "Id" "LED:${SYMBOL_NAME}"
-			(at 157.48 168.91 0)
+			(at 154.94 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +4989,7 @@
 			)
 		)
 		(property "Rating" "15mA"
-			(at 157.48 184.15 0)
+			(at 154.94 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5022,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u1")
-		(at 124.46 49.53 0)
+		(at 121.92 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5061,7 +5032,7 @@
 		(dnp no)
 		(uuid "2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(property "Reference" "C703"
-			(at 115.824 47.498 0)
+			(at 113.284 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5072,7 +5043,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 119.126 49.784 0)
+			(at 116.586 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5082,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 124.46 66.548 0)
+			(at 121.92 66.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 49.53 0)
+			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,7 +5075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 62.992 0)
+			(at 121.92 62.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +5086,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 124.46 66.802 0)
+			(at 121.92 66.802 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5097,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 124.46 64.77 0)
+			(at 121.92 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +5108,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 124.46 67.31 0)
+			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5119,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 124.46 72.39 0)
+			(at 121.92 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5130,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 124.46 64.77 0)
+			(at 121.92 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5186,7 +5157,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 175.26 139.7 90)
+		(at 172.72 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5196,8 +5167,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3083446d-8f0e-422a-b4df-4a274dbcf01d")
-		(property "Reference" "#PWR0715"
-			(at 181.61 139.7 0)
+		(property "Reference" "#PWR715"
+			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 139.6999 90)
+			(at 176.53 139.6999 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 139.7 0)
+			(at 172.72 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,7 +5202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 139.7 0)
+			(at 172.72 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 139.7 0)
+			(at 172.72 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5229,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0715")
+					(reference "#PWR715")
 					(unit 1)
 				)
 			)
@@ -5266,7 +5237,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 165.1 156.21 270)
+		(at 162.56 156.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5275,8 +5246,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "376f8b53-4339-43a5-94bc-b3be87ac5238")
-		(property "Reference" "#PWR0711"
-			(at 161.29 156.21 0)
+		(property "Reference" "#PWR711"
+			(at 158.75 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,17 +5258,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 156.21 90)
+			(at 168.148 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 156.21 0)
+			(at 162.56 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 156.21 0)
+			(at 162.56 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 156.21 0)
+			(at 162.56 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5335,7 +5307,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0711")
+					(reference "#PWR711")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5315,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 191.77 127 90)
+		(at 189.23 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5353,8 +5325,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f20cffb-f180-46c9-a9b2-5adf4b6ba0d0")
-		(property "Reference" "#PWR0716"
-			(at 198.12 127 0)
+		(property "Reference" "#PWR716"
+			(at 195.58 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +5337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 126.9999 90)
+			(at 193.04 126.9999 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,83 +5349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d9c4a11-eb59-485c-b498-ca84060b1307")
-		)
-		(instances
-			(project "drum"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0716")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_Resistor:2012_0R11")
-		(at 189.23 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
-		(property "Reference" "R702"
-			(at 189.484 122.428 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R11"
-			(at 189.484 124.714 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "V2_Resistor_SMD:R_2012"
-			(at 204.978 127 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5371,83 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.422 127 0)
+			(at 189.23 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d9c4a11-eb59-485c-b498-ca84060b1307")
+		)
+		(instances
+			(project "drum"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
+					(reference "#PWR716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_Resistor:2012_0R11")
+		(at 186.69 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
+		(property "Reference" "R702"
+			(at 186.944 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R11"
+			(at 186.944 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "V2_Resistor_SMD:R_2012"
+			(at 202.438 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.882 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5458,7 @@
 			)
 		)
 		(property "Mouser" "667-ERJ-6DSFR11V"
-			(at 204.216 126.492 0)
+			(at 201.676 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,17 +5469,6 @@
 			)
 		)
 		(property "Product" "ERJ-6DSFR11V"
-			(at 207.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
 			(at 204.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -5518,8 +5479,19 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 201.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Rating" "500mW"
-			(at 209.55 127 0)
+			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5502,7 @@
 			)
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
-			(at 203.2 127 0)
+			(at 200.66 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5557,7 +5529,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 124.46 52.07 0)
+		(at 121.92 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5566,8 +5538,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d05b3f6-198d-47a3-899d-33d249682017")
-		(property "Reference" "#PWR0704"
-			(at 124.46 58.42 0)
+		(property "Reference" "#PWR704"
+			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 57.15 0)
+			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 52.07 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 52.07 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,7 +5583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 52.07 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5599,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0704")
+					(reference "#PWR704")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5607,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u1")
-		(at 139.7 86.36 0)
+		(at 137.16 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5645,7 +5617,7 @@
 		(dnp no)
 		(uuid "64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(property "Reference" "C705"
-			(at 131.064 84.328 0)
+			(at 129.032 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5656,7 +5628,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 134.366 86.614 0)
+			(at 132.334 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5666,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 139.7 103.378 0)
+			(at 137.16 103.378 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 86.36 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +5660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 99.822 0)
+			(at 137.16 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +5671,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 139.7 103.632 0)
+			(at 137.16 103.632 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5682,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 139.7 101.6 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5721,7 +5693,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 139.7 104.14 0)
+			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +5704,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 139.7 109.22 0)
+			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5715,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 139.7 101.6 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5770,7 +5742,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 170.18 52.07 0)
+		(at 167.64 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5779,8 +5751,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64fe2d3d-f8a7-4521-81a6-4367e45f3cac")
-		(property "Reference" "#PWR0714"
-			(at 170.18 58.42 0)
+		(property "Reference" "#PWR714"
+			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +5763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 57.15 0)
+			(at 167.64 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,7 +5774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 52.07 0)
+			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +5785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 52.07 0)
+			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5824,7 +5796,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 52.07 0)
+			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5812,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0714")
+					(reference "#PWR714")
 					(unit 1)
 				)
 			)
@@ -5848,7 +5820,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 139.7 104.14 270)
+		(at 137.16 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5858,8 +5830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a51717b-758d-45aa-87c0-c4df878610d9")
-		(property "Reference" "#PWR0708"
-			(at 133.35 104.14 0)
+		(property "Reference" "#PWR708"
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +5842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 104.1399 90)
+			(at 133.35 104.1399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,7 +5854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 104.14 0)
+			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,7 +5865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 104.14 0)
+			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +5876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 104.14 0)
+			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,7 +5892,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0708")
+					(reference "#PWR708")
 					(unit 1)
 				)
 			)
@@ -5928,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+3V3")
-		(at 139.7 81.28 90)
+		(at 137.16 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5936,10 +5908,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "794bed67-c6fe-4917-909e-c35d3b8beebb")
-		(property "Reference" "#PWR0705"
-			(at 143.51 81.28 0)
+		(property "Reference" "#PWR705"
+			(at 140.97 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,18 +5921,18 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 81.2799 90)
+			(at 131.064 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 81.28 0)
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,7 +5943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 81.28 0)
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 81.28 0)
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +5970,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0705")
+					(reference "#PWR705")
 					(unit 1)
 				)
 			)
@@ -6007,7 +5978,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+3V3")
-		(at 124.46 46.99 0)
+		(at 121.92 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6017,8 +5988,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aedc456-61de-4353-aa00-fa41d1d4b2cd")
-		(property "Reference" "#PWR0703"
-			(at 124.46 50.8 0)
+		(property "Reference" "#PWR703"
+			(at 121.92 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,17 +6000,18 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 41.91 0)
+			(at 121.92 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 46.99 0)
+			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 46.99 0)
+			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 46.99 0)
+			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +6049,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0703")
+					(reference "#PWR703")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6057,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 139.7 91.44 90)
+		(at 137.16 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -6093,10 +6065,9 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bd08665-c1f8-477f-99ca-ce07607b001c")
-		(property "Reference" "#PWR0707"
-			(at 143.51 91.44 0)
+		(property "Reference" "#PWR707"
+			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,18 +6078,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 135.89 91.4399 90)
+			(at 131.064 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 91.44 0)
+			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +6100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 91.44 0)
+			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,7 +6111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 91.44 0)
+			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6127,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0707")
+					(reference "#PWR707")
 					(unit 1)
 				)
 			)
@@ -6164,7 +6135,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 123.19 83.82 0)
+		(at 116.84 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6174,8 +6145,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7dcbff-6b76-4ec4-8d15-6ead4eb412dd")
-		(property "Reference" "#PWR0702"
-			(at 123.19 90.17 0)
+		(property "Reference" "#PWR702"
+			(at 116.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6157,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 88.9 0)
+			(at 116.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 83.82 0)
+			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +6179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 83.82 0)
+			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,7 +6190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 83.82 0)
+			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6206,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0702")
+					(reference "#PWR702")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6214,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:Polarized_6.3x7.7_100u")
-		(at 134.62 49.53 0)
+		(at 132.08 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6253,7 +6224,7 @@
 		(dnp no)
 		(uuid "934d0330-567c-41fe-b495-2275bdcec8da")
 		(property "Reference" "C704"
-			(at 137.16 48.514 0)
+			(at 134.62 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6264,7 +6235,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 136.906 50.546 0)
+			(at 134.366 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6275,7 +6246,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 134.62 66.294 0)
+			(at 132.08 66.294 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 49.53 0)
+			(at 132.08 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 62.738 0)
+			(at 132.08 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6279,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-FKV101XAL"
-			(at 134.62 70.104 0)
+			(at 132.08 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +6290,7 @@
 			)
 		)
 		(property "Product" "EEE-FKV101XAL"
-			(at 134.62 69.85 0)
+			(at 132.08 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +6301,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 134.62 67.31 0)
+			(at 132.08 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,7 +6312,7 @@
 			)
 		)
 		(property "Rating" "35V"
-			(at 134.62 72.39 0)
+			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,7 +6323,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 134.62 68.58 0)
+			(at 132.08 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6350,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:Polarized_6.3x7.7_100u")
-		(at 147.32 49.53 0)
+		(at 144.78 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6389,7 +6360,7 @@
 		(dnp no)
 		(uuid "966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(property "Reference" "C706"
-			(at 149.86 48.514 0)
+			(at 147.32 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6400,7 +6371,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 149.606 50.546 0)
+			(at 147.066 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6411,7 +6382,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 147.32 66.294 0)
+			(at 144.78 66.294 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +6393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+			(at 144.78 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 62.738 0)
+			(at 144.78 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6415,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-FKV101XAL"
-			(at 147.32 70.104 0)
+			(at 144.78 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +6426,7 @@
 			)
 		)
 		(property "Product" "EEE-FKV101XAL"
-			(at 147.32 69.85 0)
+			(at 144.78 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +6437,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 147.32 67.31 0)
+			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6448,7 @@
 			)
 		)
 		(property "Rating" "35V"
-			(at 147.32 72.39 0)
+			(at 144.78 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6488,7 +6459,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 147.32 68.58 0)
+			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6515,7 +6486,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 189.23 83.82 0)
+		(at 186.69 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6523,10 +6494,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(property "Reference" "J704"
-			(at 190.5 83.8199 0)
+			(at 187.96 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6537,7 +6507,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 189.23 80.01 0)
+			(at 202.438 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6547,7 +6517,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 189.23 83.82 0)
+			(at 186.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 87.63 0)
+			(at 186.69 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6569,7 +6539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 83.82 0)
+			(at 186.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +6550,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 189.23 97.028 0)
+			(at 186.69 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,7 +6561,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 189.23 100.33 0)
+			(at 186.69 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +6572,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 189.23 91.44 0)
+			(at 186.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +6583,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 189.23 101.6 0)
+			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6607,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 189.23 81.28 0)
+		(at 186.69 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6645,10 +6615,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a556a016-b7ff-4845-8428-37883ced63d1")
 		(property "Reference" "J703"
-			(at 190.5 81.2799 0)
+			(at 187.96 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6659,7 +6628,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 189.23 77.47 0)
+			(at 202.438 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6669,7 +6638,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 189.23 81.28 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +6649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 85.09 0)
+			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 81.28 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6671,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 189.23 94.488 0)
+			(at 186.69 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +6682,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 189.23 97.79 0)
+			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6724,7 +6693,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 189.23 88.9 0)
+			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6704,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 189.23 99.06 0)
+			(at 186.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +6728,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 139.7 106.68 270)
+		(at 137.16 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6769,8 +6738,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac97314e-bef2-4841-a8e3-73cc781efb2b")
-		(property "Reference" "#PWR0709"
-			(at 133.35 106.68 0)
+		(property "Reference" "#PWR709"
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,7 +6750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 106.6799 90)
+			(at 133.35 106.6799 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6815,7 +6784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6831,7 +6800,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0709")
+					(reference "#PWR709")
 					(unit 1)
 				)
 			)
@@ -6839,7 +6808,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 110.49 83.82 0)
+		(at 104.14 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6849,8 +6818,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c057e6c3-1e64-4e65-a8a9-acbeb7ef3c66")
-		(property "Reference" "#PWR0701"
-			(at 110.49 90.17 0)
+		(property "Reference" "#PWR701"
+			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +6830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 88.9 0)
+			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +6841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 83.82 0)
+			(at 104.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +6852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 83.82 0)
+			(at 104.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,7 +6863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 83.82 0)
+			(at 104.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,7 +6879,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0701")
+					(reference "#PWR701")
 					(unit 1)
 				)
 			)
@@ -6918,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:1608_2R2")
-		(at 116.84 78.74 90)
+		(at 110.49 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6928,7 +6897,7 @@
 		(dnp no)
 		(uuid "c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(property "Reference" "R701"
-			(at 117.348 74.93 90)
+			(at 110.998 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6938,7 +6907,7 @@
 			)
 		)
 		(property "Value" "2R2"
-			(at 117.856 77.47 0)
+			(at 112.268 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6949,7 +6918,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_1608"
-			(at 132.588 78.74 0)
+			(at 126.238 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,7 +6929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 78.74 0)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +6940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.032 78.74 0)
+			(at 122.682 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +6951,7 @@
 			)
 		)
 		(property "Mouser" "71-RCS06032R20JNEA"
-			(at 132.334 78.74 0)
+			(at 125.984 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +6962,7 @@
 			)
 		)
 		(property "Product" "RCS06032R20JNEA"
-			(at 134.62 78.74 0)
+			(at 128.27 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +6973,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 132.08 78.74 0)
+			(at 125.73 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +6984,7 @@
 			)
 		)
 		(property "Rating" "500mW"
-			(at 137.16 78.74 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,7 +6995,7 @@
 			)
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
-			(at 130.81 78.74 0)
+			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "V2_Driver_Stepper:TMC2130-LA")
-		(at 157.48 106.68 0)
+		(at 154.94 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7064,7 +7033,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
 		(property "Reference" "U701"
-			(at 157.48 66.04 0)
+			(at 154.94 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7074,7 +7043,7 @@
 			)
 		)
 		(property "Value" "TMC2130-LA"
-			(at 157.48 68.58 0)
+			(at 154.94 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7084,7 +7053,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
-			(at 158.75 150.114 0)
+			(at 156.21 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.004 147.32 0)
+			(at 156.464 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,7 +7077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 66.04 0)
+			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +7088,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
-			(at 157.48 159.766 0)
+			(at 154.94 159.766 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7130,7 +7099,7 @@
 			)
 		)
 		(property "Product" "TMC2130-LA"
-			(at 157.48 163.322 0)
+			(at 154.94 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,7 +7110,7 @@
 			)
 		)
 		(property "LCSC" "C915795"
-			(at 157.48 166.878 0)
+			(at 154.94 166.878 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7121,7 @@
 			)
 		)
 		(property "Id" "Stepper:${SYMBOL_NAME}"
-			(at 157.48 162.56 0)
+			(at 154.94 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7163,7 +7132,7 @@
 			)
 		)
 		(property "Rating" "2A"
-			(at 157.48 175.26 0)
+			(at 154.94 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7295,7 +7264,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 189.23 76.2 0)
+		(at 186.69 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7303,10 +7272,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(property "Reference" "J702"
-			(at 190.5 76.1999 0)
+			(at 187.96 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7317,7 +7285,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 189.23 72.39 0)
+			(at 202.438 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7327,7 +7295,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 189.23 76.2 0)
+			(at 186.69 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 80.01 0)
+			(at 186.69 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7349,7 +7317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 76.2 0)
+			(at 186.69 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7360,7 +7328,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 189.23 89.408 0)
+			(at 186.69 89.408 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,7 +7339,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 189.23 92.71 0)
+			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7350,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 189.23 83.82 0)
+			(at 186.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7361,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 189.23 93.98 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7417,7 +7385,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:2012_0R11")
-		(at 189.23 129.54 90)
+		(at 186.69 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7427,7 +7395,7 @@
 		(dnp no)
 		(uuid "e1315563-cfac-449f-852c-a7b4c0846d68")
 		(property "Reference" "R703"
-			(at 189.484 132.08 90)
+			(at 186.944 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7437,7 +7405,7 @@
 			)
 		)
 		(property "Value" "0R11"
-			(at 189.484 134.112 90)
+			(at 186.944 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7447,7 +7415,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_2012"
-			(at 204.978 129.54 0)
+			(at 202.438 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 129.54 0)
+			(at 186.69 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,7 +7437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.422 129.54 0)
+			(at 198.882 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7480,7 +7448,7 @@
 			)
 		)
 		(property "Mouser" "667-ERJ-6DSFR11V"
-			(at 204.216 129.032 0)
+			(at 201.676 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,17 +7459,6 @@
 			)
 		)
 		(property "Product" "ERJ-6DSFR11V"
-			(at 207.01 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
 			(at 204.47 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7512,8 +7469,19 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 201.93 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Rating" "500mW"
-			(at 209.55 129.54 0)
+			(at 207.01 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +7492,7 @@
 			)
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
-			(at 203.2 129.54 0)
+			(at 200.66 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +7519,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 170.18 46.99 0)
+		(at 167.64 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -7561,8 +7529,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41209f4-a2a4-468c-b5ab-bf7effa7dc46")
-		(property "Reference" "#PWR0713"
-			(at 170.18 50.8 0)
+		(property "Reference" "#PWR713"
+			(at 167.64 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,17 +7541,18 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 170.18 41.91 0)
+			(at 167.64 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 46.99 0)
+			(at 167.64 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 46.99 0)
+			(at 167.64 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 46.99 0)
+			(at 167.64 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,7 +7590,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0713")
+					(reference "#PWR713")
 					(unit 1)
 				)
 			)
@@ -7629,7 +7598,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u47")
-		(at 123.19 81.28 0)
+		(at 116.84 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7639,7 +7608,7 @@
 		(dnp no)
 		(uuid "e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(property "Reference" "C702"
-			(at 115.316 81.28 0)
+			(at 118.872 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7650,7 +7619,7 @@
 			)
 		)
 		(property "Value" "0u47"
-			(at 115.316 83.566 0)
+			(at 118.872 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7661,7 +7630,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 123.19 98.298 0)
+			(at 116.84 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +7641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 81.28 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7652,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 94.742 0)
+			(at 116.84 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7663,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E3X7R1H474KB"
-			(at 123.19 98.298 0)
+			(at 116.84 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7705,7 +7674,7 @@
 			)
 		)
 		(property "Product" "CGA3E3X7R1H474K080AB"
-			(at 123.19 99.06 0)
+			(at 116.84 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7685,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 123.19 96.52 0)
+			(at 116.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7727,7 +7696,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 123.19 96.52 0)
+			(at 116.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7738,7 +7707,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 123.19 104.14 0)
+			(at 116.84 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7734,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 139.7 124.46 270)
+		(at 137.16 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7775,8 +7744,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea295958-7b16-4301-9e0c-92e9527b34cd")
-		(property "Reference" "#PWR0710"
-			(at 133.35 124.46 0)
+		(property "Reference" "#PWR710"
+			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +7756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 124.4599 90)
+			(at 133.35 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 124.46 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 124.46 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +7790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 124.46 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +7806,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0710")
+					(reference "#PWR710")
 					(unit 1)
 				)
 			)
@@ -7845,7 +7814,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 189.23 73.66 0)
+		(at 186.69 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7853,10 +7822,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7da93d8-324a-469c-8e25-984d56287466")
 		(property "Reference" "J701"
-			(at 190.5 73.6599 0)
+			(at 187.96 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7867,7 +7835,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 189.23 69.85 0)
+			(at 202.438 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7877,7 +7845,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 189.23 73.66 0)
+			(at 186.69 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +7856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 77.47 0)
+			(at 186.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +7867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 73.66 0)
+			(at 186.69 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7910,7 +7878,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 189.23 86.868 0)
+			(at 186.69 86.868 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +7889,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 189.23 90.17 0)
+			(at 186.69 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +7900,7 @@
 			)
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
-			(at 189.23 81.28 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +7911,7 @@
 			)
 		)
 		(property "Rating" "9A"
-			(at 189.23 91.44 0)
+			(at 186.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7935,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 165.1 161.29 90)
+		(at 162.56 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7976,8 +7944,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4b43d4-80c7-4a78-b71b-ea36c5dc5aee")
-		(property "Reference" "#PWR0712"
-			(at 171.45 161.29 0)
+		(property "Reference" "#PWR712"
+			(at 168.91 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +7956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 161.29 90)
+			(at 167.64 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,7 +7967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 161.29 0)
+			(at 162.56 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +7978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 161.29 0)
+			(at 162.56 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8021,7 +7989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 161.29 0)
+			(at 162.56 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8005,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#PWR0712")
+					(reference "#PWR712")
 					(unit 1)
 				)
 			)
@@ -8045,7 +8013,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 124.46 78.74 0)
+		(at 120.65 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8054,8 +8022,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffb62d9c-8028-445f-841b-27c581c7afdd")
-		(property "Reference" "#FLG0701"
-			(at 124.46 76.835 0)
+		(property "Reference" "#FLG701"
+			(at 122.555 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8034,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 130.81 76.708 0)
+			(at 127 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8076,7 +8044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 78.74 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 78.74 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +8066,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 78.74 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8082,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/3587b23e-cce2-48a9-8cab-0ba93735c629"
-					(reference "#FLG0701")
+					(reference "#FLG701")
 					(unit 1)
 				)
 			)
