@@ -1031,7 +1031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07833bbc-3842-4936-a51f-4ce64bbefb67")
-		(property "Reference" "#PWR804"
+		(property "Reference" "#PWR0806"
 			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1092,7 +1092,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR804")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "597a4a5d-9a23-45fe-93a8-9d30998f211e")
-		(property "Reference" "#PWR803"
+		(property "Reference" "#PWR0805"
 			(at 171.45 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1291,7 +1291,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR803")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 			)
@@ -1308,7 +1308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64153ce2-3308-4427-a2aa-8d1bc613cca9")
-		(property "Reference" "#PWR806"
+		(property "Reference" "#PWR0801"
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1369,7 +1369,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR806")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8474d786-1984-400b-83fa-5a441a789254")
-		(property "Reference" "#PWR801"
+		(property "Reference" "#PWR0803"
 			(at 137.16 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR801")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e379c67-1038-458b-8657-9bdaf7bc7f32")
-		(property "Reference" "#PWR802"
+		(property "Reference" "#PWR0804"
 			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1781,7 +1781,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR802")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -1919,7 +1919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b092ee3e-4fe0-48c7-87d6-e1c5d39c2e99")
-		(property "Reference" "#PWR805"
+		(property "Reference" "#PWR0802"
 			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1980,7 +1980,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/48b625e4-a08e-4317-bdf1-f52549e397dd"
-					(reference "#PWR805")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
