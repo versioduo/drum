@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-05-25")
+		(date "2026-06-20")
 		(rev "2026-05-25")
 		(company "Versio Duo")
 		(comment 1 "Percussion Controller")
@@ -2137,7 +2137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR503"
 			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2198,11 +2198,11 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR0603")
+					(reference "#PWR603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR0503")
+					(reference "#PWR503")
 					(unit 1)
 				)
 			)
@@ -2490,7 +2490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR501"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2551,11 +2551,11 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR0601")
+					(reference "#PWR601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR0501")
+					(reference "#PWR501")
 					(unit 1)
 				)
 			)
@@ -2697,7 +2697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR502"
 			(at 151.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2758,11 +2758,11 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR0602")
+					(reference "#PWR602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR0502")
+					(reference "#PWR502")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-05-25")
+		(date "2026-06-20")
 		(rev "2026-05-25")
 		(company "Versio Duo")
 		(comment 1 "Percussion Controller")
@@ -2299,7 +2299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e534096-c508-420f-8d10-e866c4f02890")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 106.68 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2360,7 +2360,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 			)
@@ -2935,7 +2935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ca81e7-e280-46ee-99b0-6ac46792b5ff")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 151.13 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2997,7 +2997,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5e0f8c4-f9b9-4645-9b9e-1bb2dd019e15")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "drum"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
