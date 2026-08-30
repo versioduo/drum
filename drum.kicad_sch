@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-08-28")
+		(date "2026-08-30")
 		(rev "2026-05-25")
 		(company "Versio Duo")
 		(comment 1 "Percussion Controller")
@@ -10168,7 +10168,7 @@
 		(at 240.03 170.18 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10221,17 +10221,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 240.03 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11128,7 +11117,7 @@
 		(at 227.33 180.34 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11178,17 +11167,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 227.33 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13520,7 +13498,7 @@
 		(at 240.03 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13573,17 +13551,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 240.03 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -17330,7 +17297,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkSocket.kicad_sch"
+		(property "Sheetfile" "Link-Socket.kicad_sch"
 			(at 266.7 155.5246 0)
 			(hide yes)
 			(show_name no)
@@ -17437,7 +17404,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StepperDriver.kicad_sch"
+		(property "Sheetfile" "Stepper.kicad_sch"
 			(at 193.04 93.2946 0)
 			(hide yes)
 			(show_name no)
@@ -17553,7 +17520,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "48b625e4-a08e-4317-bdf1-f52549e397dd")
-		(property "Sheetname" "LED Strip"
+		(property "Sheetname" "LED"
 			(at 261.62 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17564,7 +17531,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LEDStrip.kicad_sch"
+		(property "Sheetfile" "LED.kicad_sch"
 			(at 261.62 84.4046 0)
 			(hide yes)
 			(show_name no)
@@ -17621,7 +17588,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSwitch.kicad_sch"
+		(property "Sheetfile" "Power-Switch.kicad_sch"
 			(at 223.52 37.4146 0)
 			(hide yes)
 			(show_name no)
@@ -17718,7 +17685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 248.92 53.9246 0)
 			(hide yes)
 			(show_name no)
@@ -17804,7 +17771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkPlug.kicad_sch"
+		(property "Sheetfile" "Link-Plug.kicad_sch"
 			(at 266.7 119.9646 0)
 			(hide yes)
 			(show_name no)
@@ -17911,7 +17878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PolarityProtection.kicad_sch"
+		(property "Sheetfile" "Polarity-Protection.kicad_sch"
 			(at 172.72 46.3046 0)
 			(hide yes)
 			(show_name no)
@@ -17978,7 +17945,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSupply.kicad_sch"
+		(property "Sheetfile" "Power-DCDC.kicad_sch"
 			(at 34.29 156.7946 0)
 			(hide yes)
 			(show_name no)
@@ -18035,7 +18002,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 214.63 53.9246 0)
 			(hide yes)
 			(show_name no)

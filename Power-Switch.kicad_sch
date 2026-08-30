@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 drum")
-		(date "2026-08-28")
+		(date "2026-08-30")
 		(rev "2026-05-25")
 		(company "Versio Duo")
 		(comment 1 "Percussion Controller")

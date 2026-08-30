@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-08-28")
+		(date "2026-08-30")
 		(rev "2026-05-25")
 	)
 	(layers
@@ -285,13 +285,7 @@
 		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/6952a615-12fb-48d0-b7e4-acd68a0fd71d")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
-			)
-		)
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -730,13 +724,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/9e185ff4-cd9c-4660-bb28-a0043f2777fd")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -1008,13 +996,7 @@
 		(path "/f7599439-793b-4b64-8704-7feeab9fa08d")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -1146,13 +1128,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/96b2a52b-3e29-437b-ac70-1d4e87143c1c")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1382,12 +1358,6 @@
 		(path "/0676cd79-b280-49f0-bb2b-642706e7858b")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1555,13 +1525,7 @@
 		(path "/cb6dec98-67ee-45d6-8660-2dd8d6aeeca1")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -1631,13 +1595,7 @@
 		(path "/876d56f7-a978-4186-816c-574fe505860f")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(stackup
 			(layer "F.Cu")
 			(layer "B.Cu")
@@ -1998,13 +1956,7 @@
 		)
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2246,13 +2198,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/08ec2ab8-5431-4fa0-b5e0-a19f6d8c1d88")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2480,12 +2426,6 @@
 		(path "/24ba5897-b67d-490e-a87b-07cef9c9e4eb")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2713,12 +2653,6 @@
 		(path "/14b992fd-5156-4eff-9fa1-51be5e7bafe0")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "7" "6" "5" "9" "2" "3" "4" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3261,13 +3195,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/8121ecc5-690b-45ef-b6ce-ae0758e1359e")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3496,17 +3424,6 @@
 		(path "/5d27e373-8b8e-4111-8ca2-3a43d68280af")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "13" "14" "15" "16" "17" "18" "19" "20" "29" "30"
-					"31" "32" "35" "36" "37" "38" "41" "42" "43" "44" "45" "46" "51" "57"
-					"58" "52" "55" "53" "22" "47" "54" "33" "7" "21" "48" "34" "56" "65"
-					"8" "61" "62" "63" "64" "5" "6" "9" "10" "11" "12" "23" "24" "25" "26"
-					"27" "28" "39" "40" "49" "50" "59" "60"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5188,12 +5105,6 @@
 		(path "/f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5365,13 +5276,7 @@
 		)
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/3c3532d9-fd7c-47f2-a260-a3e108fec98e")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6247,12 +6152,6 @@
 		(path "/460bc169-e1af-437f-a9cc-14071ce38e30")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6479,12 +6378,6 @@
 		(path "/8aa35fa2-54d2-4de6-84fb-e40adea5ce97")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6710,13 +6603,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/cf167b39-aa6e-49d5-9569-d7b48b1a1969")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6943,13 +6830,7 @@
 		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/3eb19088-3b08-4e96-8938-3d11fa73e612")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "10" "5" "11" "9" "8" "7" "6")
-			)
-		)
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7609,12 +7490,6 @@
 		(path "/20d18c71-0c4f-4fe9-adf5-8312228ea199")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7856,13 +7731,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/44fb04ef-ff9e-44fa-a4e1-da7b0a6a3511")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8089,12 +7958,6 @@
 		(path "/043872f7-f031-4401-97f4-30673956f95a")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8259,12 +8122,6 @@
 		(path "/977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8421,13 +8278,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/7ff52b19-fc18-41af-a142-b03671bc9d6b")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8654,12 +8505,6 @@
 		(path "/eb6a5683-c02e-4caa-8454-654c58154b38")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8824,13 +8669,7 @@
 		(path "/4cc11ea8-fcc3-4f81-a9b7-809c1c7ae0b6")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "4" "10")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.9972 -0.7112)
@@ -9165,13 +9004,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/a556a016-b7ff-4845-8428-37883ced63d1")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -9443,13 +9276,7 @@
 		(path "/7f0b917f-4932-41a8-abeb-c94939236593")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -9582,12 +9409,6 @@
 		(path "/cf32a5fd-5f5f-475f-9178-9dee2092531c")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9751,13 +9572,7 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
 			(at 0 0 0)
@@ -9906,13 +9721,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/dcde216e-71e1-4ea5-bd4d-592ad2571552")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10138,13 +9947,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/2284926a-d017-4a09-8437-62c891ad65d7")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10385,13 +10188,7 @@
 		)
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/78334a52-a4a0-41a3-9052-01a993b57894")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11202,13 +10999,7 @@
 		(path "/ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -11468,13 +11259,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/c3f01cef-f651-4e3c-a77e-32c3ef34c5c6")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11701,12 +11486,6 @@
 		(path "/c260461d-00b9-4eb9-b031-8db68de74a86")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11932,13 +11711,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/f076f75b-54ef-473a-90ee-71c9fc219e00")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12168,12 +11941,6 @@
 		(path "/db2e7cd7-d581-4e59-b8cc-804cecf82db8")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12405,12 +12172,6 @@
 		(path "/9b95cb83-a45c-4669-9b91-f341db699f30")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12636,13 +12397,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/32e0962d-2870-40f1-961f-e0a8436f4ae1")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12870,12 +12625,6 @@
 		(path "/32f9cf95-5154-44fe-a4a0-3bd7d0128ffb")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13101,13 +12850,7 @@
 		)
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13348,13 +13091,7 @@
 		)
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/e9a7fd4e-f304-4506-ae23-b77ca5ee51a8")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -13677,14 +13414,8 @@
 			)
 		)
 		(path "/48b625e4-a08e-4317-bdf1-f52549e397dd/28a70096-0534-4dae-afbd-e22e05ea2e85")
-		(sheetname "/LED Strip/")
-		(sheetfile "LEDStrip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetname "/LED/")
+		(sheetfile "LED.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -14019,16 +13750,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/c4f27e0b-d3fa-4d1a-803c-ad29196820d4")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "25" "26" "8" "29" "31" "16" "30" "23" "17" "36" "18" "19" "10"
-					"6" "7" "1" "22" "2" "3" "4" "5" "9" "11" "34" "32" "13" "15" "27" "28"
-					"20" "21" "33" "14" "24" "12" "35" "37"
-				)
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16510,12 +16232,6 @@
 		(path "/f9c63b6f-58f5-463c-9aaf-9b2e31fb1861")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16740,14 +16456,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/48b625e4-a08e-4317-bdf1-f52549e397dd/7dc489fc-0610-4fc3-b851-721bcdd55673")
-		(sheetname "/LED Strip/")
-		(sheetfile "LEDStrip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetname "/LED/")
+		(sheetfile "LED.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16973,13 +16683,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17205,13 +16909,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/112f0a75-647d-4929-9dd6-d53a40dbe937")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17374,13 +17072,7 @@
 		(path "/30c30c8c-7180-43fa-9b43-edf5d5a98d12")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -17512,14 +17204,8 @@
 		)
 		(property ki_fp_filters "SOT* SG-*")
 		(path "/48b625e4-a08e-4317-bdf1-f52549e397dd/daf68655-aa55-4b9c-86a8-7d43f8a20570")
-		(sheetname "/LED Strip/")
-		(sheetfile "LEDStrip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "5" "3" "4")
-			)
-		)
+		(sheetname "/LED/")
+		(sheetfile "LED.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17855,7 +17541,7 @@
 			(size 1.1 0.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1666666667)
-			(net "/LED Strip/WS2812-data")
+			(net "/LED/WS2812-data")
 			(pintype "tri_state")
 			(uuid "270e3b32-86f5-4431-bb3b-7d18e6fc0e32")
 		)
@@ -18005,12 +17691,6 @@
 		(path "/41195de9-f1d3-4b20-abc5-7b3bdcc257bc")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "G" "V" "A5" "B5" "A7" "B7" "A6" "B6" "A8" "B8")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -18273,7 +17953,7 @@
 		)
 		(pad "" smd roundrect
 			(at -3.1 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "bfe2d2db-3cac-4781-bd2d-3ce12bb960ab")
@@ -18287,14 +17967,14 @@
 		)
 		(pad "" smd roundrect
 			(at -2.35 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "67a1cf6c-b48d-4be4-b36a-cf502d925986")
 		)
 		(pad "" smd roundrect
 			(at 2.35 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "5a6e6644-c07d-467c-aa34-4b8cac37f0b2")
@@ -18308,7 +17988,7 @@
 		)
 		(pad "" smd roundrect
 			(at 3.1 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "51edb8a3-fa8d-426b-82e7-3e80abe30203")
@@ -18638,13 +18318,7 @@
 		)
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/e9a7fd4e-f304-4506-ae23-b77ca5ee51a8")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -18979,13 +18653,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/2984d9f9-0bb1-4243-bafb-064221e4b94f")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19200,13 +18868,7 @@
 		)
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/c564935f-4896-4ee0-b85c-c5790de6a0d6")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -19541,13 +19203,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/64b2bce4-5075-4ff7-92dc-a36458283ceb")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19773,13 +19429,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/2c8571a5-acd7-4925-872d-6e76b48aa7fa")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20006,12 +19656,6 @@
 		(path "/8b1cb416-f9ac-41d1-988c-0516ecf3ab43")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20239,13 +19883,7 @@
 		)
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/1810c6ec-7176-4f6b-89cb-cc3c00a8361e")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "8" "11" "10" "5" "6" "7" "4" "9" "1")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -20809,29 +20447,10 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9e229c4-c0c0-4013-af2b-f71477e5c236")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/7e3b0155-43c6-420f-9ee6-b0c4d36d7f2a")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21004,13 +20623,7 @@
 		)
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21262,13 +20875,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/5b9a4be5-0614-4207-b680-e2afe13c6b18")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21494,13 +21101,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/611053b4-381e-47a0-82f2-d4ec16886b96")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21726,13 +21327,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/05d08374-7bfc-404c-8658-26b30b85556d")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21958,13 +21553,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/500a9b1d-2c2f-4244-9016-0a4e6cd8237a")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22179,13 +21768,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/d1cdc67e-f295-475e-9bea-d82a25080e6b")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -22520,13 +22103,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/0fe3142c-31a3-45e9-8e7d-18b2b579033d")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22752,13 +22329,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/2c0e0af9-cfd8-47e1-89c9-7a78fbbf09ec")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22987,12 +22558,6 @@
 		(path "/2222df47-d315-45d7-8daf-e5fc9c19addf")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23231,13 +22796,7 @@
 		)
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/c564935f-4896-4ee0-b85c-c5790de6a0d6")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -23572,13 +23131,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/8541914b-cf4d-44d1-b355-ac32da1ad7c8")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23804,13 +23357,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/e1315563-cfac-449f-852c-a7b4c0846d68")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24036,13 +23583,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/d6d86372-3cc0-4059-a968-9a78901fd202")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24256,14 +23797,8 @@
 			)
 		)
 		(path "/48b625e4-a08e-4317-bdf1-f52549e397dd/702e59f0-db94-4e23-a888-f80ec8f0b324")
-		(sheetname "/LED Strip/")
-		(sheetfile "LEDStrip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetname "/LED/")
+		(sheetfile "LED.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -24598,13 +24133,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/960ec836-4a3b-493d-a16d-ad6919ed941c")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24831,13 +24360,7 @@
 		)
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/55ab273a-1406-486a-88c1-7d36c29bdf12")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "4" "1" "7" "6" "2" "3" "8")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25278,13 +24801,7 @@
 		)
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26161,13 +25678,7 @@
 		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/a168b3ea-dea7-420c-9c92-20f2e99c6edc")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "8" "7" "6" "5" "4" "3" "2" "1")
-			)
-		)
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26617,13 +26128,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cf78bd17-d27d-49b1-ab2f-d7a9f96e4d3e/85cb2f54-d0ec-4372-a558-bbd2645e0d6e")
 		(sheetname "/Polarity Protection/")
-		(sheetfile "PolarityProtection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Polarity-Protection.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26849,13 +26354,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/934d0330-567c-41fe-b495-2275bdcec8da")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27321,13 +26820,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/966398d5-f811-4ade-bc2b-fae4d1917c51")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27793,13 +27286,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/77be58e3-6c00-45da-9843-6a2883e3b059")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28029,12 +27516,6 @@
 		(path "/5f1c71be-b9b9-47cf-820f-4afd322e7da4")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28277,12 +27758,6 @@
 		(path "/b3b0c6e8-2d4f-44f3-863f-e6c1387584b1")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28508,13 +27983,7 @@
 		)
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/7446109a-1e00-4516-87b0-e0ef06329d95")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "15" "4" "5" "6" "1" "2" "7" "8" "9" "13" "14" "10" "11" "12" "3")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29468,13 +28937,7 @@
 		)
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30337,14 +29800,8 @@
 			)
 		)
 		(path "/48b625e4-a08e-4317-bdf1-f52549e397dd/af4b1b23-7ef4-4634-98cb-479dc0f1a4e9")
-		(sheetname "/LED Strip/")
-		(sheetfile "LEDStrip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetname "/LED/")
+		(sheetfile "LED.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -30507,7 +29964,7 @@
 			(at -3.05 0 270)
 			(size 2.3 1.6)
 			(layers "F.Cu" "F.Mask")
-			(net "/LED Strip/WS2812-data")
+			(net "/LED/WS2812-data")
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
@@ -30528,7 +29985,7 @@
 			(at 0.6 0 270)
 			(size 5 2)
 			(layers "F.Cu" "F.Mask")
-			(net "/LED Strip/WS2812-data")
+			(net "/LED/WS2812-data")
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
@@ -30680,13 +30137,7 @@
 		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/49f2f260-4bf1-486c-9d7a-43ac2a901e5b")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "10" "5" "11" "9" "8" "7" "6")
-			)
-		)
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31343,13 +30794,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/c1aba0e4-e741-436f-a707-1e1c9b37bc01")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31576,12 +31021,6 @@
 		(path "/ed37f273-203c-4e14-8c3f-6d3652cda11b")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31811,12 +31250,6 @@
 		(path "/8983cb51-a714-4dae-ba79-062889bdc4de")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32102,13 +31535,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/cac3c346-4365-4436-a009-c85b94d5cc1e")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32337,13 +31764,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/177167f8-69d4-4817-a3c6-7fe0cf4ee065")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32599,12 +32020,6 @@
 		(path "/1ded23bb-9e01-4b5c-b1b4-6483eb39a60c")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32881,13 +32296,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/6f72d12b-3fd7-4fef-b38d-6a1a01607885")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33046,29 +32455,10 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07fdf2db-ba80-4add-8ba2-954459e6b131")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/2ea90a9c-c79e-495b-b221-c6ea8643fdb4")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6 -7.1)
@@ -33272,29 +32662,10 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdf89d4f-6e76-4776-bf7f-6743f066c4e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/160f51e7-46d3-469f-9c30-f9ba2109a749")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33463,13 +32834,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/8be78d92-c52c-403a-8e36-88157418b91c")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33697,13 +33062,7 @@
 		)
 		(path "/c0032080-b223-4ef5-af6e-f10445519ca7/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM Channel 2/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33945,13 +33304,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/138430b5-5815-4ef4-97be-ca6e49754c80")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34178,13 +33531,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/e9feafc0-7605-463c-ab43-73a5a7113a3d")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34399,13 +33746,7 @@
 		)
 		(path "/3587b23e-cce2-48a9-8cab-0ba93735c629/f7da93d8-324a-469c-8e25-984d56287466")
 		(sheetname "/Stepper/")
-		(sheetfile "StepperDriver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(sheetfile "Stepper.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.78)
@@ -34741,12 +34082,6 @@
 		(path "/86b706b9-6d90-4020-b4f0-e395502cc830")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34972,13 +34307,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ecb8eef8-bb26-4217-a3d3-147bd9b06112/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM Channel 1/")
-		(sheetfile "PWMChannel.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35206,12 +34535,6 @@
 		(path "/330191be-3691-4695-9403-de21f3946dc2")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "3" "5" "2" "6" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35554,13 +34877,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35786,13 +35103,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/5d439242-14b5-4e05-ab0e-4840d52b01e7")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35957,12 +35268,6 @@
 		(path "/d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(sheetname "/")
 		(sheetfile "drum.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -36119,13 +35424,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/e14d358e-402a-493a-bd30-e4c330185f72")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36351,13 +35650,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/6a297412-3179-4b32-986e-193184ebc6d9")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36583,13 +35876,7 @@
 		)
 		(path "/ba748654-beb9-4861-aa35-c19e08caaf2e/b03f561c-bee5-4286-b716-21252d83b2a5")
 		(sheetname "/PWM Power/")
-		(sheetfile "PowerSwitch.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50930,38 +50217,6 @@
 		(uuid "ae56da62-aeff-41e0-a80b-796aa592a34b")
 	)
 	(segment
-		(start 163 74.5)
-		(end 164.2 75.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED Strip/WS2812-data")
-		(uuid "38e0e6f2-3263-4990-b6ad-028d4fa64a54")
-	)
-	(segment
-		(start 159.1 74.5)
-		(end 163 74.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED Strip/WS2812-data")
-		(uuid "576fc199-83e2-4f09-8c58-9a20ed8a9404")
-	)
-	(segment
-		(start 158.5 75.6)
-		(end 158.5 75.1)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED Strip/WS2812-data")
-		(uuid "621d8922-0233-4658-b221-9405e9044ff3")
-	)
-	(segment
-		(start 158.5 75.1)
-		(end 159.1 74.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED Strip/WS2812-data")
-		(uuid "caa9353a-3f70-48f6-a137-455e9ba34ca0")
-	)
-	(segment
 		(start 181.54 99.065)
 		(end 181.475 99)
 		(width 0.3)
@@ -51464,6 +50719,38 @@
 		(layer "F.Cu")
 		(net "/LED-Stepper")
 		(uuid "bbaa3b29-bf82-4785-a9ac-c39eb3230ebf")
+	)
+	(segment
+		(start 163 74.5)
+		(end 164.2 75.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED/WS2812-data")
+		(uuid "38e0e6f2-3263-4990-b6ad-028d4fa64a54")
+	)
+	(segment
+		(start 159.1 74.5)
+		(end 163 74.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED/WS2812-data")
+		(uuid "576fc199-83e2-4f09-8c58-9a20ed8a9404")
+	)
+	(segment
+		(start 158.5 75.6)
+		(end 158.5 75.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED/WS2812-data")
+		(uuid "621d8922-0233-4658-b221-9405e9044ff3")
+	)
+	(segment
+		(start 158.5 75.1)
+		(end 159.1 74.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED/WS2812-data")
+		(uuid "caa9353a-3f70-48f6-a137-455e9ba34ca0")
 	)
 	(zone
 		(net "/Socket-TX-Enable")
@@ -52302,7 +51589,7 @@
 		)
 	)
 	(zone
-		(net "/LED Strip/WS2812-data")
+		(net "/LED/WS2812-data")
 		(layer "F.Cu")
 		(uuid "28ece8f7-49e9-466c-b68d-4362b7e6e735")
 		(hatch edge 0.5)
